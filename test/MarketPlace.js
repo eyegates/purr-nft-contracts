@@ -758,6 +758,11 @@ contract(
         const latest = await time.latest();
         let duration = latest.add(time.duration.minutes(5));
         let oldduration = latest.add(time.duration.minutes(-5));
+        await market
+          .register(0, author1, duration, token.address, {
+            from: user,
+          })
+          .should.be.rejectedWith("Price should be greater than 0");
         result = await market
           .register(registrationPrice, author1, 0, token.address, {
             from: user,
@@ -804,6 +809,113 @@ contract(
         await time.increase(time.duration.minutes(10));
         registrations = await market.fetchMyRegistrations({ from: user });
         registrations.length.should.equal(0);
+      });
+
+      it("tip a creator and transfer funds", async () => {
+        const feeBalanceBefore = await token.balanceOf(feeAddress);
+        const userBalanceBefore = await token.balanceOf(user);
+        const tipAmount = new BN(web3.utils.toWei("1", "ether"));
+        let fee = tipAmount.mul(new BN(1250)).div(new BN(10000));
+
+        await market
+          .tip(0, author1, token.address, {
+            from: user,
+          })
+          .should.be.rejectedWith("Tip: amount should be greater than 0");
+        result = await market.tip(tipAmount, author1, token.address, {
+          from: user,
+        });
+
+        result.logs[0].event.should.equal("Tiped");
+        result.logs[0].args.donator.should.equal(user);
+        result.logs[0].args.amount
+          .toString()
+          .should.equal(tipAmount.toString());
+        result.logs[0].args.creator.should.equal(author1);
+        result.logs[0].args.currency.should.equal(token.address);
+
+        const feeBalanceAfter = await token.balanceOf(feeAddress);
+        const userBalanceAfter = await token.balanceOf(user);
+        const expectedFeeBalance = new BN(feeBalanceBefore).add(fee);
+        const expectedUserBalance = new BN(userBalanceBefore).sub(tipAmount);
+
+        feeBalanceAfter.toString().should.equal(expectedFeeBalance.toString());
+        userBalanceAfter
+          .toString()
+          .should.equal(expectedUserBalance.toString());
+      });
+
+      it("creates a market item", async () => {
+        const tokenId = 1234567890;
+
+        let marketItems = await market.fetchMarketItems();
+        let listedItems = await market.fetchMyListedNFTs({ from: nftOwner });
+        let mynfts = await market.fetchMyNFTs({ from: nftOwner });
+
+        marketItem = await prepareMarketItem(
+          nftContract,
+          tokenId,
+          price,
+          token.address,
+          false,
+          true,
+          0,
+          0,
+          nftOwner
+        );
+
+        result = await market.createMarketItem(
+          marketItem.nft.address,
+          marketItem.tokenId,
+          marketItem.price,
+          marketItem.currency,
+          marketItem.auction,
+          marketItem.publisher,
+          marketItem.minimumOffer,
+          marketItem.duration,
+          { from: nftOwner }
+        );
+
+        const item = await market.getMarketItem(marketItem.tokenId);
+        item.tokenId.toString().should.equal(marketItem.tokenId.toString());
+
+        await market.removeMarketItem(marketItem.tokenId, nftContract.address, {
+          from: nftOwner,
+        });
+
+        result = await market.fetchMarketItems();
+        result.length.should.equal(marketItems.length);
+
+        result = await market.fetchMyListedNFTs({ from: nftOwner });
+        result.length.should.equal(listedItems.length);
+
+        result = await market.fetchMyNFTs({ from: nftOwner });
+        result.length.should.equal(mynfts.length + 1);
+
+        marketItems = await market.fetchMarketItems();
+        listedItems = await market.fetchMyListedNFTs({ from: nftOwner });
+        mynfts = await market.fetchMyNFTs({ from: nftOwner });
+
+        await market.createMarketItem(
+          marketItem.nft.address,
+          marketItem.tokenId,
+          marketItem.price,
+          marketItem.currency,
+          marketItem.auction,
+          marketItem.publisher,
+          marketItem.minimumOffer,
+          marketItem.duration,
+          { from: nftOwner }
+        );
+
+        result = await market.fetchMarketItems();
+        result.length.should.equal(marketItems.length + 1);
+
+        result = await market.fetchMyListedNFTs({ from: nftOwner });
+        result.length.should.equal(listedItems.length + 1);
+
+        result = await market.fetchMyNFTs({ from: nftOwner });
+        result.length.should.equal(mynfts.length - 1);
       });
     });
   }

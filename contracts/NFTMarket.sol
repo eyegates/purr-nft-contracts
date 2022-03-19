@@ -119,6 +119,13 @@ contract NFTMarket is Initializable, OwnableUpgradeable, PausableUpgradeable {
         address currency
     );
 
+    event Tiped(
+        address donator,
+        uint256 amount,
+        address creator,
+        address currency
+    );
+
     function initialize(address _feeAddress, uint32 _defaultFee)
         public
         virtual
@@ -170,6 +177,27 @@ contract NFTMarket is Initializable, OwnableUpgradeable, PausableUpgradeable {
         emit Registered(owner, price, creator, endDate, currency);
     }
 
+    function tip(
+        uint256 tipAmount,
+        address creator,
+        address currency
+    ) public whenNotPaused {
+        require(tipAmount > 0, "Tip: amount should be greater than 0");
+
+        address donator = msg.sender;
+        // compute fee amount
+        uint256 fee = (tipAmount * defaultFee) / 10000;
+        //compute owner sale amount
+        uint256 amount = tipAmount - fee;
+
+        // Transfer the owner amount
+        IERC20(currency).transferFrom(donator, creator, amount);
+        // Transfer the fee amount
+        IERC20(currency).transferFrom(donator, feeAddress, fee);
+
+        emit Tiped(donator, tipAmount, creator, currency);
+    }
+
     function fetchMyRegistrations() public view returns (Plan[] memory) {
         uint256 totalItemCount = registrations[msg.sender].length;
         uint256 itemCount = 0;
@@ -208,26 +236,46 @@ contract NFTMarket is Initializable, OwnableUpgradeable, PausableUpgradeable {
             msg.sender == IERC721(nftContract).ownerOf(tokenId),
             "Only the token owner can offer"
         );
+        uint256 itemId = tokenIdToItemId[tokenId];
 
-        _itemIds.increment();
-        uint256 itemId = _itemIds.current();
-        tokenIdToItemId[tokenId] = itemId;
-        idToMarketItem[itemId] = MarketItem(
-            itemId,
-            nftContract,
-            tokenId,
-            msg.sender,
-            address(0),
-            price,
-            currency,
-            isAuction,
-            isPublisher,
-            minimumOffer,
-            duration,
-            address(0),
-            0,
-            address(0)
-        );
+        if (itemId < 1) {
+            _itemIds.increment();
+            itemId = _itemIds.current();
+            tokenIdToItemId[tokenId] = itemId;
+            idToMarketItem[itemId] = MarketItem(
+                itemId,
+                nftContract,
+                tokenId,
+                msg.sender,
+                address(0),
+                price,
+                currency,
+                isAuction,
+                isPublisher,
+                minimumOffer,
+                duration,
+                address(0),
+                0,
+                address(0)
+            );
+        } else {
+            _itemsRemoved.decrement();
+            itemId = tokenIdToItemId[tokenId];
+            MarketItem storage marketItem = idToMarketItem[itemId];
+            marketItem.nftContract = nftContract;
+            marketItem.offeror = msg.sender;
+            marketItem.owner = address(0);
+            marketItem.price = price;
+            marketItem.currency = currency;
+            marketItem.isAuction = isAuction;
+            marketItem.isPublisher = isPublisher;
+            marketItem.minimumOffer = minimumOffer;
+            marketItem.duration = duration;
+            marketItem.bidder = address(0);
+            marketItem.lockedBid = 0;
+            marketItem.invitedBidder = address(0);
+            idToMarketItem[itemId] = marketItem;
+        }
 
         IERC721(nftContract).transferFrom(msg.sender, address(this), tokenId);
 
