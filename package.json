@@ -1,0 +1,27 @@
+{
+  "name": "nfttoken",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "truffle compile --all && truffle test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.5.0",
+    "@openzeppelin/contracts-upgradeable": "^4.5.2",
+    "@openzeppelin/test-helpers": "^0.5.15",
+    "@openzeppelin/truffle-upgrades": "^1.13.0",
+    "@truffle/hdwallet-provider": "^2.0.3",
+    "chai": "^4.3.6",
+    "chai-as-promised": "^7.1.1",
+    "chai-bignumber": "^3.0.0",
+    "dotenv": "^16.0.0",
+    "truffle": "^5.5.3",
+    "truffle-plugin-verify": "^0.5.21"
+  }
+}
