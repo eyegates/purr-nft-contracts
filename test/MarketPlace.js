@@ -917,6 +917,86 @@ contract(
         result = await market.fetchMyNFTs({ from: nftOwner });
         result.length.should.equal(mynfts.length - 1);
       });
+
+      it("creates a private market item", async () => {
+        const tokenId = 1234567892;
+
+        const userBalanceBeforeSale = await token.balanceOf(bidder);
+        const feeBalanceBeforeSale = await token.balanceOf(feeAddress);
+        const ownerBalanceBeforeSale = await token.balanceOf(nftOwner);
+
+        let myPrivatenfts = await market.fetchMyPrivateNFTs({ from: bidder });
+        let myPrivatemarkets = await market.fetchMyPrivateMarketItems({
+          from: bidder,
+        });
+
+        marketItem = await prepareMarketItem(
+          nftContract,
+          tokenId,
+          price,
+          token.address,
+          false,
+          true,
+          0,
+          0,
+          nftOwner
+        );
+
+        result = await market.createPrivateMarketItem(
+          marketItem.nft.address,
+          marketItem.tokenId,
+          marketItem.price,
+          marketItem.currency,
+          bidder,
+          { from: nftOwner }
+        );
+
+        const item = await market.getPrivateMarketItem(marketItem.tokenId);
+        item.tokenId.toString().should.equal(marketItem.tokenId.toString());
+
+        result = await market.fetchMyPrivateNFTs({ from: nftOwner });
+        result.length.should.equal(myPrivatenfts.length);
+
+        result = await market.fetchMyPrivateMarketItems({
+          from: bidder,
+        });
+        result.length.should.equal(myPrivatemarkets.length + 1);
+
+        result = await market.createPrivateMarketSale(marketItem.tokenId, {
+          from: bidder,
+        });
+
+        const owner = await nftContract.ownerOf(marketItem.tokenId);
+        owner.should.equal(bidder);
+
+        let fee = new BN(marketItem.price).mul(new BN(1250)).div(new BN(10000));
+        let amount = new BN(marketItem.price).sub(fee);
+        let expectedUserBalance = new BN(userBalanceBeforeSale)
+          .sub(amount)
+          .sub(fee);
+        let expectedFeeBalance = new BN(feeBalanceBeforeSale).add(fee);
+        let expectedOwnerBalance = new BN(ownerBalanceBeforeSale).add(amount);
+        const ownerBalanceAfterSale = await token.balanceOf(nftOwner);
+        const userBalanceAfterSale = await token.balanceOf(bidder);
+        const feeBalanceAfterSale = await token.balanceOf(feeAddress);
+
+        feeBalanceAfterSale
+          .toString()
+          .should.equal(expectedFeeBalance.toString());
+        userBalanceAfterSale
+          .toString()
+          .should.equal(expectedUserBalance.toString());
+        ownerBalanceAfterSale
+          .toString()
+          .should.equal(expectedOwnerBalance.toString());
+
+        const myNfts = await market.fetchMyPrivateNFTs({ from: bidder });
+        myNfts.length.should.equal(1);
+        myNfts[0].tokenId.should.equal(marketItem.tokenId.toString());
+
+        result = await market.fetchMyPrivateMarketItems({ from: nftOwner });
+        result.length.should.equal(myPrivatemarkets.length);
+      });
     });
   }
 );
