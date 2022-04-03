@@ -1,8 +1,8 @@
 {
   "manifestVersion": "3.2",
   "admin": {
-    "address": "0xB73C42789A66290A11628C8633cE9FDe535853Ec",
-    "txHash": "0xd693e1a043b898040cd9e48d48087e3a3d57353c236ed344b0f502598147558f"
+    "address": "0xb4629C076ABde718eA328b0a715dAb2c504b57e2",
+    "txHash": "0x3595f188c4aacacf74aa74590fc09e18308967885bfac4446649e3de4346e1f9"
   },
   "proxies": [
     {
@@ -223,6 +223,486 @@
     {
       "address": "0xB29119a7dF88e9D9A4F28f96346B4E47b27897F8",
       "txHash": "0x8c9edefc08e83d628a359f28926197383df7e193a863bb62f65916fbaa6e5c06",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x4B8F9398053aF6C0414fFBc2319aFe8DAA938310",
+      "txHash": "0xc4784a425b4a0599c7fb55a177ac76c536a708ac55adedb1fc7ff3c666f76bd6",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xb0f3078894D1d25808572B9863c9E58929684E21",
+      "txHash": "0x62126437fe56b369c469f3243b5a032c40707ba4f32b249e1708d13da9e5fef8",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xe620E19b2564613967c68b0ba37DB47a456BABa0",
+      "txHash": "0xea49514309e34d96409285a32c317d1d37cd2fca4171e10e4c730854eaacb158",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x044b4b8807f61a3F9b7A6c5B0dBC431003B184f3",
+      "txHash": "0x1bca4b4d024d256632003f1d5b3f52e04d3cf20eb3c16865e765ee98d81c957f",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xC5126842776FDAa8f8E3C130ed7B7ac322B1F2aa",
+      "txHash": "0x310c0dc14e22de3a56ce4ee3a6514e23a4611f3f387e407dace644ce29d54f0c",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x538EdFaD0ffc7B5DF073E454Fccc0d8b00B86705",
+      "txHash": "0x70887cdc85b11c27e85b03a8a6257cfdd238934486107f7909f8354bae62556b",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x4b45476C55a4BA68E2694Cee6d0Dd0b4677411ec",
+      "txHash": "0x8ae4494b4ea26789f3bbe4028b28b168c534fb77b50f96161c79e5ce3dee7ae2",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xb71A288cc046e2FBeA518526852A571959ccA63B",
+      "txHash": "0xbf013385e3cdf924d86cb182d08f85449ede748102fcd4af72e943341a81cd21",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xF2af1cdC9F0D9b34d559F3C7062b33D4FddC15C5",
+      "txHash": "0x72f877efb6d43352a2bbd670234b368726b58ae1d08efdf93f187a9506ab752a",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xE39E072A916cc4f765D9D50a3E8ec3b8010A5175",
+      "txHash": "0x07153ff3ea56a3091084bcbf103d1ff6590a635734e28f665459c283754901f6",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xE30367624ff16A0532AFE244E4ED686167447c3E",
+      "txHash": "0x2b71c107c46e2d7c861c76570ec19a541afecae2e44cc961e5b94b8b9b4e1523",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x84B61BB06F6D835E03c8F98785F8a5A5f64189D3",
+      "txHash": "0x7aab722d328312fd2bab2e52c8e40d186f63af8102f9168b16f93fcbc8514e80",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x16FcA80f908bB01A8f2Fb3183c02979Bc449A0D4",
+      "txHash": "0xf120a5e990ad16eef0c210a5cd158db7f443fa40b145dc2da8721a3393606ee2",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xb8e86701758a2670f77cDC073e3545Cb49bc88CA",
+      "txHash": "0xe25e87252ebafc221196fd00ca3fc3a5148d7f0e649a1ec2b79c6d3b1cfc7cc6",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x9D2f4B11037115571d839071eD111fce7E8BB4A9",
+      "txHash": "0xf2517b6f35cfa3e3cae2e4f0521ecd272cb50a61f5163ca4183d580c9df60ca9",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x3b68541c36BdB9C6e478Dd1FC99a8de21ceBeEaB",
+      "txHash": "0x1a2640b1d46bf7cdd814eb6e0e79593edcbb62665637b67b351e485e6a7b813f",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xd34D21EDc70700e2Db2Fe286De6244147A3098B8",
+      "txHash": "0xe569673d902ef174fb3fce6166448017bf1a68ddaa60ba5f97384c47d954c36a",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xD532cf7b1B3e349560CB969511F267b1e13921Fc",
+      "txHash": "0x2ec0daeeecd990819d9422dc24860716c6efdf5cfd5b3a0159620c55faaeb1c0",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x20f02223b7066bF954EE220b900f0D0Fd088Be44",
+      "txHash": "0x97ee28484462faffa77179f813f01b662c899641ad6782e9d1be17f56e9ecefe",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x643A939C25A5BC245e3aEE6FC39fEcbdA8C41630",
+      "txHash": "0x453172c64ddf2dd3a7541f0aad4fcbe706e96d67e8db7f013ac8d23d2ef2c81c",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x4a22bb4A7294A75E2d0467fffE986948d56f80A0",
+      "txHash": "0x77ee517392ddbd5fd5d203baea87979d0f7b5310c6e26372d35e5e3c03fca4e9",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xA4bf49040821Fd3b58F4013D3bdBf0A3C594089b",
+      "txHash": "0xdf09ede9d332f8956de67379a9aa2e9116d9b72ad393bb5bc1fb27d3753915cd",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x8569775e7f90D3e38a79d63e33c79448Bd66C4Fd",
+      "txHash": "0x9b4e06317038bc105be5114dc4236ae58e9b24b6ffa8e1843e7c4761eeac822f",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x8FEe6Ca68c5B27Fb1a0f756390da24e4A93EFAf0",
+      "txHash": "0x0e4591a9e5d67691226243a538f53c21520fc6bed15eb5348d95cd7c04a81147",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xaF185f8D354536C3A4f7Bd372D2aEb9F7b03A755",
+      "txHash": "0x22ef8a20075ef6b16e4c1bd7000fbe43342ac6e6949ba8c1ee5f567864112fe0",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xfFA881b0607440376914F58Bc27c5997168CbD21",
+      "txHash": "0x6c5cdd1219a23a76ff34f6b8f0e988644750ac3a0e5f0aec8826b7ab2fe4b3f0",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x59B25238233a4C6D7Ce101174731FA7aCFa3f09A",
+      "txHash": "0x194c757c01307a9d8dfd69432329419163e75a9aa5db846059697c8783f6eb00",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xfDc5A2adf9f1881475Be8c85AC9042c40238bAB4",
+      "txHash": "0xa8ad3f2aa71d54ab13831acb85723130996c7c88d9882ac1bbaa9b2fe3f3da3d",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x7E3711C191ACa4C2f53E156C3013fBFc7505701c",
+      "txHash": "0xcc8fbf807db74df58ea5a116f70529f002f78ec75eba433aef0a0e9712655bc8",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x7AD888BCC8c8032c13412a0100208205bdB1eC16",
+      "txHash": "0xbb6e15130b62d4766e15c9fd3402d3c7e4f9cbdeb5b2643e2a290421d51f868e",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x0a4F6D797fCbBf455CAF11684D239d8bA229f9B6",
+      "txHash": "0xb738ba2a57fc979b835fa49eb0424f8b48d6ace6b7eee0d28ff9bd5159c33764",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x42a85469E867AAcF8196E43b9b0a81FEa2d40A8b",
+      "txHash": "0x0653c3cc7ac89c2ecc44ce74c8626b97dbcf3dc2ad3d3370be6d4fc1f76d99ec",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x0FeE9c673E3dc5b74C6342AD3E315B207da3F3D8",
+      "txHash": "0x9739083c5dff2a086b00db2932ec2072006b24778f212189a1d29e6106723210",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x441bb798084EfD0b30dc30B97b9EC7F587145467",
+      "txHash": "0x1640ac4f964c8d3c6894c7c19425a567291ca7039238b7017eb69dff05e96398",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x1d2246e116148F36C1652845fd8dF1796248f387",
+      "txHash": "0x87ba4c352fca7c10c46a3e9efb2badf6c25ea405188fd580aefed348ec54f1c6",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x260af84253242405C0ad83E4eec125B45cd54d06",
+      "txHash": "0x5e60f4bde402074f0ab372d82b23ad72ed7af519a91379c0aeb6b3a65ccbfe44",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x6208E8d226c05cd0AdD332fD67942409Db618ba4",
+      "txHash": "0x7a5c56a8e6726410aa9ee0de5c86df62b04a5df6b947a72ed7c712f9b0d07063",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x59773351c987Aa47d3eC65c113eCD3dA887B2A63",
+      "txHash": "0x6654fd9b05870679bbee1379aac8153d1b13e8b9d263307ab6fdc522389e82dc",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xa2663078F9FE840d53D0b246e0eC54b86E3bDbA5",
+      "txHash": "0x7f16000c527e63342c27ff3b26553c802a1f438a5ab15443fd4bfada8f9ad752",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xb0389Dbb902e33C0A228516BC0C1d5b93deb2DCf",
+      "txHash": "0xf8cf6d79c7ed7064bf4fe10770ac9c2d03072cc9b1b9f7069070cbcc1f37bbba",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x05D680A1275da2F8b733e888bCD8db737dFEEF29",
+      "txHash": "0xfe714a822720160e13e7af095d9e2981763e163f3b8bc3363df00ac2fa620160",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x15D7B9Cdf32Bc9515492a41DD6e12883E8cE9923",
+      "txHash": "0x42160945dd4d529e2dffd5f82286dbf85d745a07afbf849933d4274e675d98a8",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x0285A70147e3826c17e86D4E8d67920bF5850045",
+      "txHash": "0x786fc6ec0615ba011af4d693c18261f377eff6662887d568ded745595fa60fc2",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xF7C792939056C393C7Eb28943FbfA58f8A1BF6db",
+      "txHash": "0xda075918801797c6c13e096b446015e5458ddfceea90b2fdd96a722c4237cee5",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x4BAbC9a435E9DD71375EAae40f967c189Ccd2805",
+      "txHash": "0xdbe08ce55404bab6ba6a7a81c01a2cfcfeb296c509a4a3b5eb9b87c4d8207e35",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xc048289812c48d1bC7CDED4898c99b3b5ED21ad4",
+      "txHash": "0xebb8a7878d9cd9e19c7c9eb88e9a5b28ba677f5dd941d8e99f8b12083de73a23",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xD3528102a5AAC53839B8CfE1506C40a4451480a1",
+      "txHash": "0x4538573a2e295717c670df8a62f5af01b38d9f0f2854e2fd71ed8ddc5c902c52",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x593bf6d2FFdae0C4E9EbAAff2054e9ec7b19B73a",
+      "txHash": "0x976203bf814fe8684f6df6bca98b614a6c1db8deb796e430c01fb6b35a57847b",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x4ed78Ff10ba4D0De831DF730E631f1B1EC82Bc71",
+      "txHash": "0x7cf446def95d4086511cdc643aebaf5b5ebe1b011476e4120b7f1a2b8827d88c",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xd21d6Ae425CE50f91c03280d287A0652D4Bde936",
+      "txHash": "0xaa773d1e8df61852f8c983ece155782a245fe5e4c0e61fbf266f415fdc24e1d2",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x561BeB59614db6296427E4EFDaf9fFCB12676162",
+      "txHash": "0x8008847ad217a6e4e6b820d6cdf3703a8dbdc17ecc14c3be594c2a7acc6f6b4b",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x0d78b584ec9E0653AE139C30d1bccC704E3611B4",
+      "txHash": "0x74a1fea10cda82767a6f6a6946a26e031a4d5da9f08dac6e1b00cf34f54c6052",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x633d0E0A1daeFf93747Be2Ae1bAe25e378c40FCd",
+      "txHash": "0x246614c3f7a7e342ad0f0121dc7396d3cd8bdae97cf94048a7748d369b225384",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x7b67B3b2E3B0b0b5e30F6A6502Fbbd6211F875d0",
+      "txHash": "0xb611e57d2a58eaf9440b773f35e1f9f89590701eb7e35ca3fe4aa1144770c090",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x98b0911Ab5bC50E24aE96be6286d9e176B2608e7",
+      "txHash": "0x1a134d007c26693a42be16a1b6333cb81bc21c6af529aa3c4c96e65a88d3dda8",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x83996234c19c738D99A21B105009de879760A917",
+      "txHash": "0x62ee933f4e02ba50f1739317ac9b9d6f3fc39d97372f9700fe36522ff642c3bc",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x77DC7c5d6007501Febf1eD29d99a71DafD5dE704",
+      "txHash": "0x2d37e1fe21f228d01aeafe3092520d7af5178e741de8e85e1091c366d9dbf043",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x03a681130Ba6c8afDF8c6F0bbC988e1Ded1e294d",
+      "txHash": "0x29252ba8c78e9a8fcf1b2598c14df755d074f2718accf904f06dbd850f273df1",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xFC0DDE95c9427cBa920f839370E2f4ebfFddE118",
+      "txHash": "0x922b6514f2c656072b4887abb5392a92c0d5ef45f1faf248488faec90c3bada6",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x4F9C68E7B4c59d7bb684b1C6503130109c12BC59",
+      "txHash": "0x067526a68aaab77ebb36879fb9cb5f49bd892c8662474bd4ac6980fcbcb1eb44",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x9F0f6fB8B8e99cdE087571e41E86e314561997F5",
+      "txHash": "0x3404189b0b6d63b91f59ab5cac3e84c6de225ed9887a3201596cde0be7cc06f2",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x59C1813Ca1ae9DA620eab609ED9Adb1A19504890",
+      "txHash": "0xf82a7866a421a5ebc6787e574c2888630881d1a5aca945121e7717031f512007",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x5F8247f2b60902E7f6361eeEf1E0be7f8c940ada",
+      "txHash": "0xa042b557d5b1b22c80d9fc4c532032ab1eb53eedb8eccd2e28a8e47cb47af2d0",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xcC7EC0D2A6F085B1E70650CFE53B3e7dfCc4B34a",
+      "txHash": "0x0bd7192c88b8b808f155fc9449c76298e973258ce2999875d0caa557036e1105",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x3f7Ad974b73a56CAa35EBfb10a20C35784F07de5",
+      "txHash": "0x3fbd6d28e5a4977e688b6608bcfb9c470564f9a5274dc8d091d0831dd00186e9",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xe7F94001317B321508C4D6C01B5cc7F8dBd5fB79",
+      "txHash": "0x1f9d9b2a138ac45f68ea393f3b031b2785a629185aa5af7c1e549ea8b33159e4",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xCbEbf0A2100C6DdfADF8BBd8F6a81cC5E0B7Cd47",
+      "txHash": "0x14aa01c9608b56e89cc8e239a0169bb27edab498b82cc8f47741928203b31d3d",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x808a3180a96a86Fc65698482f35A3054f52AD864",
+      "txHash": "0xb656decfbcf5bf492f5fac547517180885c4df6e4b42627fb4b58b3e5c2dda4e",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x76233Deb3611AD8c65ECE9Df4d17Baa37BbF52f2",
+      "txHash": "0x36d3383d43ea3ea83c4f913151374bcb67432ecef44ec22b60bfd6c5cf8f859e",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xb5bC34D0F8E853B5121C97317C9a8071ccC8f91a",
+      "txHash": "0x0bd34e0ab0caeb68b9c6080e5c167103c385ec98d48cb96db187c25848250a16",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xA1f4366213aE7B657bd6e8A663DBFEa826e9F8C3",
+      "txHash": "0x8b51e3d64003796da147daa695fad7135fab5df4f0ef0a389688c18b928aea2b",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x2E0563394a1F4a9399f7C3b141Aa335C27161DA4",
+      "txHash": "0x4d6b336e427e52060ea54e5b3e809460b95608f3f7e5c04b9a4e00933a0f23f5",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x0E34f9EAAf45aC71Ea29f51bB0e5BC2ed3c53930",
+      "txHash": "0xea8937405e1b1b6608f7e265b474fe707efe19454c4b3b9a7fe6190069051073",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xC7F9c1B700fA2Cc105E128daD8cFC993B24c80db",
+      "txHash": "0xbf01a5728e61cd6ab556781b66de284e7d10aca10df8f25a75be88e449be1a3c",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xDE5CBa851335A39b8b4ED70ad4d04C591FbCd341",
+      "txHash": "0xf420e1f3b28716b283dab0ebb8135252dcba8426667d31f59a49e68e286c950b",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xa45b42b74eC4EEd061b997Fa3b64cFE150236508",
+      "txHash": "0x07cdf83af35abf06d0a918c168ddbaf59e0f611c68626f1c1dae7042a5537e0d",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xc231117a715815E873a3455Ff354ecBEf7414983",
+      "txHash": "0xf8278fdec1b083ece59394107da9f070adb225b512f3b95ec6e4c01202de20e5",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xEbD7F39b79E4323A015030C3256A05FFB40bdEd4",
+      "txHash": "0x57c731cee94eaf9b54252efd3826e4c0dc4e819713270a39384b1e5ec34e0328",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x57A812B9c84D38B97512f7D5D461d3024BA626b7",
+      "txHash": "0x2cab6929c12dca0dd7ea063b417088499f24621730d18acee21e7aa87c2452de",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xAc2D28C49fEBe988069dEd921845799342640a87",
+      "txHash": "0x18dc67ede63339f42128fb3cb503eb314367887a8cf8c5835bd3ac897aba7b1c",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x56eE754D8aF017610DA84738B70616cA6B3Fd415",
+      "txHash": "0x005c5a9accd0374e0c854786825a3322dcab1b262b81a308e4b3c117f24f08e8",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x3dE0d3F69d80fdeFcC2D7F2086Cd6FE446C36133",
+      "txHash": "0x43cbaebf986750e75428aadd88811829db39fe9eae0e9ca1d15e4aa76a95eed5",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xD4Fde8ecaa946F80aAe74913CaF5D2a2Bf50C12D",
+      "txHash": "0x06df9444b540d03226f06c73a17aaf682c13b83d39e1e255171ecdb130ff97f9",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x2dB8B3790BcEEDD80c6b4D5af9Cd8448B98232DC",
+      "txHash": "0x304351969124e4b191607c722ab909d2b1d6fe3184a8a8bcb280b19c49885b5f",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x5f6f124D744DD9F56eFB4908EC4f5d7770a49198",
+      "txHash": "0x540963b0dcf9cff1e052d07c2aca04318916c811b163948a33e0ed0c26716103",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x4f3C400571DA528F41150DF701283aA31a022514",
+      "txHash": "0x21f7ddd2be785c184df856fadec63b2bc02c53a7d16af69620217c4e0694987a",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xa6a0b7945a21bAa77f5450eBC491FB3ebEB51224",
+      "txHash": "0x17dbd16bbfd89e1b101ec8eb9256d1217bd37ccff6d4dcef99ee4d25b8090686",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x95005F96F185618F0CC51A217e25a85a1DdA7DA8",
+      "txHash": "0x88fae98dd4ee474cd87b7bcd0a810e38bbbdce66d2b53da8bb6e5d6c2fa49429",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xC3b79b1C9f0C5D8C94854bF043D40e4A62d943Bb",
+      "txHash": "0x1b06a3c314acd8cd92248691df9a1fa3336c93ab1e6b4501bfcc6b8b52ff8c05",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x02Aec11204cBAA0Ab7Eb4a6897770c2FB220ca55",
+      "txHash": "0x78491a16570bf1c91e469ddee37f0f83667d937e13227659a877604c3fb4824f",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xde315c18545F55d133068fEc1259C32708A90788",
+      "txHash": "0xe56d3730a28bfb804004bae830b4a8bdd309f58ab3699adf1a0917c93af063f7",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x0b6Eb7CBD4424ff6DB8bbC797ccB594ae1a386dF",
+      "txHash": "0xf9bd2adcb3384dd296a4eb90d9a7c3e1fe58c5202ab0e1f21db5f0568cae0109",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x0AD18f6850009319657A932AA2E3a0a6469cd7f7",
+      "txHash": "0x78e9345f570cd00783175a220f756406ca22f3df0c12fa0fd09ba39e09999ee0",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xD6b969479cC7EaAE4c619F61961376FFB4d8cc20",
+      "txHash": "0x9fd4440da9184731250f022bcba42dc9571156a133c0bae7bc62c0903860a240",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x3745309B1Ecc636Eb4BEF42442fA365e96d09273",
+      "txHash": "0x878d0a26607058e4ae91fe7e1e6c037f46ea27ad372206b94fb171c28a85d28f",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x741060D1b71914697FBC75aceFceD7F731c5bC87",
+      "txHash": "0xc33392adf5bc6aeab43f978697edbbdf0fab05ce3e0758969ce9281072110856",
       "kind": "transparent"
     }
   ],
@@ -951,8 +1431,1737 @@
       }
     },
     "d8a0ee241e0ebf22651ef21c25b08324e8e1ebf81b1e199acbd5510c90761587": {
-      "address": "0xaA5B6E82877cBc5EF8AC2D3D151cb53f8B1E4Aa2",
-      "txHash": "0x3b61c66034cddbb53deaf927aa27c8d805e80b42e806004b1eae888c06c559da",
+      "address": "0x1dc9CcE6F0461Aea040E2770F920f41418c9Bd5a",
+      "txHash": "0xddb523e6d3555754840ee753c7af12c88c2ab030ab73594042598a89192245f1",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:39"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:44"
+          },
+          {
+            "contract": "ContextUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol:36"
+          },
+          {
+            "contract": "OwnableUpgradeable",
+            "label": "_owner",
+            "type": "t_address",
+            "src": "../@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:22"
+          },
+          {
+            "contract": "OwnableUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:87"
+          },
+          {
+            "contract": "PausableUpgradeable",
+            "label": "_paused",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts-upgradeable/security/PausableUpgradeable.sol:29"
+          },
+          {
+            "contract": "PausableUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/security/PausableUpgradeable.sol:102"
+          },
+          {
+            "contract": "NFTMarket",
+            "label": "_itemIds",
+            "type": "t_struct(Counter)2762_storage",
+            "src": "../project:/contracts/NFTMarket.sol:39"
+          },
+          {
+            "contract": "NFTMarket",
+            "label": "_itemsSold",
+            "type": "t_struct(Counter)2762_storage",
+            "src": "../project:/contracts/NFTMarket.sol:40"
+          },
+          {
+            "contract": "NFTMarket",
+            "label": "_itemsRemoved",
+            "type": "t_struct(Counter)2762_storage",
+            "src": "../project:/contracts/NFTMarket.sol:41"
+          },
+          {
+            "contract": "NFTMarket",
+            "label": "feeAddress",
+            "type": "t_address",
+            "src": "../project:/contracts/NFTMarket.sol:43"
+          },
+          {
+            "contract": "NFTMarket",
+            "label": "defaultFee",
+            "type": "t_uint32",
+            "src": "../project:/contracts/NFTMarket.sol:45"
+          },
+          {
+            "contract": "NFTMarket",
+            "label": "idToMarketItem",
+            "type": "t_mapping(t_uint256,t_struct(MarketItem)3167_storage)",
+            "src": "../project:/contracts/NFTMarket.sol:47"
+          },
+          {
+            "contract": "NFTMarket",
+            "label": "tokenIdToItemId",
+            "type": "t_mapping(t_uint256,t_uint256)",
+            "src": "../project:/contracts/NFTMarket.sol:48"
+          },
+          {
+            "contract": "NFTMarket",
+            "label": "registrations",
+            "type": "t_mapping(t_address,t_array(t_struct(Plan)3180_storage)dyn_storage)",
+            "src": "../project:/contracts/NFTMarket.sol:49"
+          },
+          {
+            "contract": "NFTMarket",
+            "label": "_privateItems",
+            "type": "t_struct(Counter)2762_storage",
+            "src": "../project:/contracts/NFTMarket.sol:50"
+          },
+          {
+            "contract": "NFTMarket",
+            "label": "idToPrivateMarketItem",
+            "type": "t_mapping(t_uint256,t_struct(MarketItem)3167_storage)",
+            "src": "../project:/contracts/NFTMarket.sol:51"
+          },
+          {
+            "contract": "NFTMarket",
+            "label": "tokenIdToPrivateItemId",
+            "type": "t_mapping(t_uint256,t_uint256)",
+            "src": "../project:/contracts/NFTMarket.sol:52"
+          }
+        ],
+        "types": {
+          "t_struct(Counter)2762_storage": {
+            "label": "struct Counters.Counter",
+            "members": [
+              {
+                "label": "_value",
+                "type": "t_uint256"
+              }
+            ]
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_uint32": {
+            "label": "uint32"
+          },
+          "t_mapping(t_uint256,t_struct(MarketItem)3167_storage)": {
+            "label": "mapping(uint256 => struct NFTMarket.MarketItem)"
+          },
+          "t_struct(MarketItem)3167_storage": {
+            "label": "struct NFTMarket.MarketItem",
+            "members": [
+              {
+                "label": "itemId",
+                "type": "t_uint256"
+              },
+              {
+                "label": "nftContract",
+                "type": "t_address"
+              },
+              {
+                "label": "tokenId",
+                "type": "t_uint256"
+              },
+              {
+                "label": "offeror",
+                "type": "t_address"
+              },
+              {
+                "label": "owner",
+                "type": "t_address"
+              },
+              {
+                "label": "price",
+                "type": "t_uint256"
+              },
+              {
+                "label": "currency",
+                "type": "t_address"
+              },
+              {
+                "label": "isAuction",
+                "type": "t_bool"
+              },
+              {
+                "label": "isPublisher",
+                "type": "t_bool"
+              },
+              {
+                "label": "minimumOffer",
+                "type": "t_uint256"
+              },
+              {
+                "label": "duration",
+                "type": "t_uint256"
+              },
+              {
+                "label": "bidder",
+                "type": "t_address"
+              },
+              {
+                "label": "lockedBid",
+                "type": "t_uint256"
+              },
+              {
+                "label": "invitedBidder",
+                "type": "t_address"
+              }
+            ]
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_mapping(t_uint256,t_uint256)": {
+            "label": "mapping(uint256 => uint256)"
+          },
+          "t_mapping(t_address,t_array(t_struct(Plan)3180_storage)dyn_storage)": {
+            "label": "mapping(address => struct NFTMarket.Plan[])"
+          },
+          "t_array(t_struct(Plan)3180_storage)dyn_storage": {
+            "label": "struct NFTMarket.Plan[]"
+          },
+          "t_struct(Plan)3180_storage": {
+            "label": "struct NFTMarket.Plan",
+            "members": [
+              {
+                "label": "owner",
+                "type": "t_address"
+              },
+              {
+                "label": "price",
+                "type": "t_uint256"
+              },
+              {
+                "label": "creator",
+                "type": "t_address"
+              },
+              {
+                "label": "endDate",
+                "type": "t_uint256"
+              },
+              {
+                "label": "currency",
+                "type": "t_address"
+              },
+              {
+                "label": "timestamp",
+                "type": "t_uint256"
+              }
+            ]
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]"
+          }
+        }
+      }
+    },
+    "50218d6cf4a88bfb50a6db317f947630c23d6973ef886076f614809aae24f2f6": {
+      "address": "0x3B6774479384Bdc6fF454b5E381d03381F783AD8",
+      "txHash": "0xa44be3b7d477b62b58420bc7b5b3ae77c6ea13f2ea3e76beca3e65325c1ffb04",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:39"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:44"
+          },
+          {
+            "contract": "ContextUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol:36"
+          },
+          {
+            "contract": "OwnableUpgradeable",
+            "label": "_owner",
+            "type": "t_address",
+            "src": "../@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:22"
+          },
+          {
+            "contract": "OwnableUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:87"
+          },
+          {
+            "contract": "PausableUpgradeable",
+            "label": "_paused",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts-upgradeable/security/PausableUpgradeable.sol:29"
+          },
+          {
+            "contract": "PausableUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/security/PausableUpgradeable.sol:102"
+          },
+          {
+            "contract": "NFTMarket",
+            "label": "_itemIds",
+            "type": "t_struct(Counter)5431_storage",
+            "src": "NFTMarket.sol:39"
+          },
+          {
+            "contract": "NFTMarket",
+            "label": "_itemsSold",
+            "type": "t_struct(Counter)5431_storage",
+            "src": "NFTMarket.sol:40"
+          },
+          {
+            "contract": "NFTMarket",
+            "label": "_itemsRemoved",
+            "type": "t_struct(Counter)5431_storage",
+            "src": "NFTMarket.sol:41"
+          },
+          {
+            "contract": "NFTMarket",
+            "label": "feeAddress",
+            "type": "t_address",
+            "src": "NFTMarket.sol:43"
+          },
+          {
+            "contract": "NFTMarket",
+            "label": "defaultFee",
+            "type": "t_uint32",
+            "src": "NFTMarket.sol:45"
+          },
+          {
+            "contract": "NFTMarket",
+            "label": "idToMarketItem",
+            "type": "t_mapping(t_uint256,t_struct(MarketItem)97_storage)",
+            "src": "NFTMarket.sol:47"
+          },
+          {
+            "contract": "NFTMarket",
+            "label": "tokenIdToItemId",
+            "type": "t_mapping(t_uint256,t_uint256)",
+            "src": "NFTMarket.sol:48"
+          },
+          {
+            "contract": "NFTMarket",
+            "label": "registrations",
+            "type": "t_mapping(t_address,t_array(t_struct(Plan)110_storage)dyn_storage)",
+            "src": "NFTMarket.sol:49"
+          },
+          {
+            "contract": "NFTMarket",
+            "label": "_privateItems",
+            "type": "t_struct(Counter)5431_storage",
+            "src": "NFTMarket.sol:50"
+          },
+          {
+            "contract": "NFTMarket",
+            "label": "idToPrivateMarketItem",
+            "type": "t_mapping(t_uint256,t_struct(MarketItem)97_storage)",
+            "src": "NFTMarket.sol:51"
+          },
+          {
+            "contract": "NFTMarket",
+            "label": "tokenIdToPrivateItemId",
+            "type": "t_mapping(t_uint256,t_uint256)",
+            "src": "NFTMarket.sol:52"
+          }
+        ],
+        "types": {
+          "t_struct(Counter)5431_storage": {
+            "label": "struct Counters.Counter",
+            "members": [
+              {
+                "label": "_value",
+                "type": "t_uint256"
+              }
+            ]
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_uint32": {
+            "label": "uint32"
+          },
+          "t_mapping(t_uint256,t_struct(MarketItem)97_storage)": {
+            "label": "mapping(uint256 => struct NFTMarket.MarketItem)"
+          },
+          "t_struct(MarketItem)97_storage": {
+            "label": "struct NFTMarket.MarketItem",
+            "members": [
+              {
+                "label": "itemId",
+                "type": "t_uint256"
+              },
+              {
+                "label": "nftContract",
+                "type": "t_address"
+              },
+              {
+                "label": "tokenId",
+                "type": "t_uint256"
+              },
+              {
+                "label": "offeror",
+                "type": "t_address"
+              },
+              {
+                "label": "owner",
+                "type": "t_address"
+              },
+              {
+                "label": "price",
+                "type": "t_uint256"
+              },
+              {
+                "label": "currency",
+                "type": "t_address"
+              },
+              {
+                "label": "isAuction",
+                "type": "t_bool"
+              },
+              {
+                "label": "isPublisher",
+                "type": "t_bool"
+              },
+              {
+                "label": "minimumOffer",
+                "type": "t_uint256"
+              },
+              {
+                "label": "duration",
+                "type": "t_uint256"
+              },
+              {
+                "label": "bidder",
+                "type": "t_address"
+              },
+              {
+                "label": "lockedBid",
+                "type": "t_uint256"
+              },
+              {
+                "label": "invitedBidder",
+                "type": "t_address"
+              }
+            ]
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_mapping(t_uint256,t_uint256)": {
+            "label": "mapping(uint256 => uint256)"
+          },
+          "t_mapping(t_address,t_array(t_struct(Plan)110_storage)dyn_storage)": {
+            "label": "mapping(address => struct NFTMarket.Plan[])"
+          },
+          "t_array(t_struct(Plan)110_storage)dyn_storage": {
+            "label": "struct NFTMarket.Plan[]"
+          },
+          "t_struct(Plan)110_storage": {
+            "label": "struct NFTMarket.Plan",
+            "members": [
+              {
+                "label": "owner",
+                "type": "t_address"
+              },
+              {
+                "label": "price",
+                "type": "t_uint256"
+              },
+              {
+                "label": "creator",
+                "type": "t_address"
+              },
+              {
+                "label": "endDate",
+                "type": "t_uint256"
+              },
+              {
+                "label": "currency",
+                "type": "t_address"
+              },
+              {
+                "label": "timestamp",
+                "type": "t_uint256"
+              }
+            ]
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]"
+          }
+        }
+      }
+    },
+    "8a458c763ccc29ae371cf5c8cdeffc7337847381b7247d7076062f7ecbeb57a0": {
+      "address": "0xFAC0c1801073c7548278f4Ca435aF4b5F9aD839B",
+      "txHash": "0xefa4f683f94a3c8af7253a501dfc955ba42e0cdc85035ba8d8f4b69a3be50f66",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:39"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:44"
+          },
+          {
+            "contract": "ContextUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol:36"
+          },
+          {
+            "contract": "OwnableUpgradeable",
+            "label": "_owner",
+            "type": "t_address",
+            "src": "../@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:22"
+          },
+          {
+            "contract": "OwnableUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:87"
+          },
+          {
+            "contract": "PausableUpgradeable",
+            "label": "_paused",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts-upgradeable/security/PausableUpgradeable.sol:29"
+          },
+          {
+            "contract": "PausableUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/security/PausableUpgradeable.sol:102"
+          },
+          {
+            "contract": "NFTMarket",
+            "label": "_itemIds",
+            "type": "t_struct(Counter)2762_storage",
+            "src": "../project:/contracts/NFTMarket.sol:39"
+          },
+          {
+            "contract": "NFTMarket",
+            "label": "_itemsSold",
+            "type": "t_struct(Counter)2762_storage",
+            "src": "../project:/contracts/NFTMarket.sol:40"
+          },
+          {
+            "contract": "NFTMarket",
+            "label": "_itemsRemoved",
+            "type": "t_struct(Counter)2762_storage",
+            "src": "../project:/contracts/NFTMarket.sol:41"
+          },
+          {
+            "contract": "NFTMarket",
+            "label": "feeAddress",
+            "type": "t_address",
+            "src": "../project:/contracts/NFTMarket.sol:43"
+          },
+          {
+            "contract": "NFTMarket",
+            "label": "defaultFee",
+            "type": "t_uint32",
+            "src": "../project:/contracts/NFTMarket.sol:45"
+          },
+          {
+            "contract": "NFTMarket",
+            "label": "idToMarketItem",
+            "type": "t_mapping(t_uint256,t_struct(MarketItem)3167_storage)",
+            "src": "../project:/contracts/NFTMarket.sol:47"
+          },
+          {
+            "contract": "NFTMarket",
+            "label": "tokenIdToItemId",
+            "type": "t_mapping(t_uint256,t_uint256)",
+            "src": "../project:/contracts/NFTMarket.sol:48"
+          },
+          {
+            "contract": "NFTMarket",
+            "label": "registrations",
+            "type": "t_mapping(t_address,t_array(t_struct(Plan)3180_storage)dyn_storage)",
+            "src": "../project:/contracts/NFTMarket.sol:49"
+          },
+          {
+            "contract": "NFTMarket",
+            "label": "_privateItems",
+            "type": "t_struct(Counter)2762_storage",
+            "src": "../project:/contracts/NFTMarket.sol:50"
+          },
+          {
+            "contract": "NFTMarket",
+            "label": "idToPrivateMarketItem",
+            "type": "t_mapping(t_uint256,t_struct(MarketItem)3167_storage)",
+            "src": "../project:/contracts/NFTMarket.sol:51"
+          },
+          {
+            "contract": "NFTMarket",
+            "label": "tokenIdToPrivateItemId",
+            "type": "t_mapping(t_uint256,t_uint256)",
+            "src": "../project:/contracts/NFTMarket.sol:52"
+          }
+        ],
+        "types": {
+          "t_struct(Counter)2762_storage": {
+            "label": "struct Counters.Counter",
+            "members": [
+              {
+                "label": "_value",
+                "type": "t_uint256"
+              }
+            ]
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_uint32": {
+            "label": "uint32"
+          },
+          "t_mapping(t_uint256,t_struct(MarketItem)3167_storage)": {
+            "label": "mapping(uint256 => struct NFTMarket.MarketItem)"
+          },
+          "t_struct(MarketItem)3167_storage": {
+            "label": "struct NFTMarket.MarketItem",
+            "members": [
+              {
+                "label": "itemId",
+                "type": "t_uint256"
+              },
+              {
+                "label": "nftContract",
+                "type": "t_address"
+              },
+              {
+                "label": "tokenId",
+                "type": "t_uint256"
+              },
+              {
+                "label": "offeror",
+                "type": "t_address"
+              },
+              {
+                "label": "owner",
+                "type": "t_address"
+              },
+              {
+                "label": "price",
+                "type": "t_uint256"
+              },
+              {
+                "label": "currency",
+                "type": "t_address"
+              },
+              {
+                "label": "isAuction",
+                "type": "t_bool"
+              },
+              {
+                "label": "isPublisher",
+                "type": "t_bool"
+              },
+              {
+                "label": "minimumOffer",
+                "type": "t_uint256"
+              },
+              {
+                "label": "duration",
+                "type": "t_uint256"
+              },
+              {
+                "label": "bidder",
+                "type": "t_address"
+              },
+              {
+                "label": "lockedBid",
+                "type": "t_uint256"
+              },
+              {
+                "label": "invitedBidder",
+                "type": "t_address"
+              }
+            ]
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_mapping(t_uint256,t_uint256)": {
+            "label": "mapping(uint256 => uint256)"
+          },
+          "t_mapping(t_address,t_array(t_struct(Plan)3180_storage)dyn_storage)": {
+            "label": "mapping(address => struct NFTMarket.Plan[])"
+          },
+          "t_array(t_struct(Plan)3180_storage)dyn_storage": {
+            "label": "struct NFTMarket.Plan[]"
+          },
+          "t_struct(Plan)3180_storage": {
+            "label": "struct NFTMarket.Plan",
+            "members": [
+              {
+                "label": "owner",
+                "type": "t_address"
+              },
+              {
+                "label": "price",
+                "type": "t_uint256"
+              },
+              {
+                "label": "creator",
+                "type": "t_address"
+              },
+              {
+                "label": "endDate",
+                "type": "t_uint256"
+              },
+              {
+                "label": "currency",
+                "type": "t_address"
+              },
+              {
+                "label": "timestamp",
+                "type": "t_uint256"
+              }
+            ]
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]"
+          }
+        }
+      }
+    },
+    "30f7fbcdc0cb22c8c47c5fdbdd46f6faa4e13166c536a9f390e0cca24cd2e96b": {
+      "address": "0xEcA71B54033364b68EB2d9F1Ffe4c3995CD2282B",
+      "txHash": "0x2bc697deb4ea6fd1866a694b62501a4e274dc9a7ca00255200ebf2f2c9bcf596",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:39"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:44"
+          },
+          {
+            "contract": "ContextUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol:36"
+          },
+          {
+            "contract": "OwnableUpgradeable",
+            "label": "_owner",
+            "type": "t_address",
+            "src": "../@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:22"
+          },
+          {
+            "contract": "OwnableUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:87"
+          },
+          {
+            "contract": "PausableUpgradeable",
+            "label": "_paused",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts-upgradeable/security/PausableUpgradeable.sol:29"
+          },
+          {
+            "contract": "PausableUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/security/PausableUpgradeable.sol:102"
+          },
+          {
+            "contract": "NFTMarket",
+            "label": "_itemIds",
+            "type": "t_struct(Counter)2762_storage",
+            "src": "../project:/contracts/NFTMarket.sol:39"
+          },
+          {
+            "contract": "NFTMarket",
+            "label": "_itemsSold",
+            "type": "t_struct(Counter)2762_storage",
+            "src": "../project:/contracts/NFTMarket.sol:40"
+          },
+          {
+            "contract": "NFTMarket",
+            "label": "_itemsRemoved",
+            "type": "t_struct(Counter)2762_storage",
+            "src": "../project:/contracts/NFTMarket.sol:41"
+          },
+          {
+            "contract": "NFTMarket",
+            "label": "feeAddress",
+            "type": "t_address",
+            "src": "../project:/contracts/NFTMarket.sol:43"
+          },
+          {
+            "contract": "NFTMarket",
+            "label": "defaultFee",
+            "type": "t_uint32",
+            "src": "../project:/contracts/NFTMarket.sol:45"
+          },
+          {
+            "contract": "NFTMarket",
+            "label": "idToMarketItem",
+            "type": "t_mapping(t_uint256,t_struct(MarketItem)3167_storage)",
+            "src": "../project:/contracts/NFTMarket.sol:47"
+          },
+          {
+            "contract": "NFTMarket",
+            "label": "tokenIdToItemId",
+            "type": "t_mapping(t_uint256,t_uint256)",
+            "src": "../project:/contracts/NFTMarket.sol:48"
+          },
+          {
+            "contract": "NFTMarket",
+            "label": "registrations",
+            "type": "t_mapping(t_address,t_array(t_struct(Plan)3180_storage)dyn_storage)",
+            "src": "../project:/contracts/NFTMarket.sol:49"
+          },
+          {
+            "contract": "NFTMarket",
+            "label": "_privateItems",
+            "type": "t_struct(Counter)2762_storage",
+            "src": "../project:/contracts/NFTMarket.sol:50"
+          },
+          {
+            "contract": "NFTMarket",
+            "label": "idToPrivateMarketItem",
+            "type": "t_mapping(t_uint256,t_struct(MarketItem)3167_storage)",
+            "src": "../project:/contracts/NFTMarket.sol:51"
+          },
+          {
+            "contract": "NFTMarket",
+            "label": "tokenIdToPrivateItemId",
+            "type": "t_mapping(t_uint256,t_uint256)",
+            "src": "../project:/contracts/NFTMarket.sol:52"
+          }
+        ],
+        "types": {
+          "t_struct(Counter)2762_storage": {
+            "label": "struct Counters.Counter",
+            "members": [
+              {
+                "label": "_value",
+                "type": "t_uint256"
+              }
+            ]
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_uint32": {
+            "label": "uint32"
+          },
+          "t_mapping(t_uint256,t_struct(MarketItem)3167_storage)": {
+            "label": "mapping(uint256 => struct NFTMarket.MarketItem)"
+          },
+          "t_struct(MarketItem)3167_storage": {
+            "label": "struct NFTMarket.MarketItem",
+            "members": [
+              {
+                "label": "itemId",
+                "type": "t_uint256"
+              },
+              {
+                "label": "nftContract",
+                "type": "t_address"
+              },
+              {
+                "label": "tokenId",
+                "type": "t_uint256"
+              },
+              {
+                "label": "offeror",
+                "type": "t_address"
+              },
+              {
+                "label": "owner",
+                "type": "t_address"
+              },
+              {
+                "label": "price",
+                "type": "t_uint256"
+              },
+              {
+                "label": "currency",
+                "type": "t_address"
+              },
+              {
+                "label": "isAuction",
+                "type": "t_bool"
+              },
+              {
+                "label": "isPublisher",
+                "type": "t_bool"
+              },
+              {
+                "label": "minimumOffer",
+                "type": "t_uint256"
+              },
+              {
+                "label": "duration",
+                "type": "t_uint256"
+              },
+              {
+                "label": "bidder",
+                "type": "t_address"
+              },
+              {
+                "label": "lockedBid",
+                "type": "t_uint256"
+              },
+              {
+                "label": "invitedBidder",
+                "type": "t_address"
+              }
+            ]
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_mapping(t_uint256,t_uint256)": {
+            "label": "mapping(uint256 => uint256)"
+          },
+          "t_mapping(t_address,t_array(t_struct(Plan)3180_storage)dyn_storage)": {
+            "label": "mapping(address => struct NFTMarket.Plan[])"
+          },
+          "t_array(t_struct(Plan)3180_storage)dyn_storage": {
+            "label": "struct NFTMarket.Plan[]"
+          },
+          "t_struct(Plan)3180_storage": {
+            "label": "struct NFTMarket.Plan",
+            "members": [
+              {
+                "label": "owner",
+                "type": "t_address"
+              },
+              {
+                "label": "price",
+                "type": "t_uint256"
+              },
+              {
+                "label": "creator",
+                "type": "t_address"
+              },
+              {
+                "label": "endDate",
+                "type": "t_uint256"
+              },
+              {
+                "label": "currency",
+                "type": "t_address"
+              },
+              {
+                "label": "timestamp",
+                "type": "t_uint256"
+              }
+            ]
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]"
+          }
+        }
+      }
+    },
+    "dec11f0bbf47124e583b0790fc76488f97fcba29b379b95fe504d095ff8dc3ff": {
+      "address": "0x953E9E02603CA54297e6b6ea1297F76b9F9B47C0",
+      "txHash": "0x61066530ad86dc64c95d0cdc191fdd0f61bf0cf14bb6a36ab2c4fe08e84a5b77",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:39"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:44"
+          },
+          {
+            "contract": "ContextUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol:36"
+          },
+          {
+            "contract": "OwnableUpgradeable",
+            "label": "_owner",
+            "type": "t_address",
+            "src": "../@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:22"
+          },
+          {
+            "contract": "OwnableUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:87"
+          },
+          {
+            "contract": "PausableUpgradeable",
+            "label": "_paused",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts-upgradeable/security/PausableUpgradeable.sol:29"
+          },
+          {
+            "contract": "PausableUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/security/PausableUpgradeable.sol:102"
+          },
+          {
+            "contract": "NFTMarket",
+            "label": "_itemIds",
+            "type": "t_struct(Counter)2762_storage",
+            "src": "../project:/contracts/NFTMarket.sol:39"
+          },
+          {
+            "contract": "NFTMarket",
+            "label": "_itemsSold",
+            "type": "t_struct(Counter)2762_storage",
+            "src": "../project:/contracts/NFTMarket.sol:40"
+          },
+          {
+            "contract": "NFTMarket",
+            "label": "_itemsRemoved",
+            "type": "t_struct(Counter)2762_storage",
+            "src": "../project:/contracts/NFTMarket.sol:41"
+          },
+          {
+            "contract": "NFTMarket",
+            "label": "feeAddress",
+            "type": "t_address",
+            "src": "../project:/contracts/NFTMarket.sol:43"
+          },
+          {
+            "contract": "NFTMarket",
+            "label": "defaultFee",
+            "type": "t_uint32",
+            "src": "../project:/contracts/NFTMarket.sol:45"
+          },
+          {
+            "contract": "NFTMarket",
+            "label": "idToMarketItem",
+            "type": "t_mapping(t_uint256,t_struct(MarketItem)3167_storage)",
+            "src": "../project:/contracts/NFTMarket.sol:47"
+          },
+          {
+            "contract": "NFTMarket",
+            "label": "tokenIdToItemId",
+            "type": "t_mapping(t_uint256,t_uint256)",
+            "src": "../project:/contracts/NFTMarket.sol:48"
+          },
+          {
+            "contract": "NFTMarket",
+            "label": "registrations",
+            "type": "t_mapping(t_address,t_array(t_struct(Plan)3180_storage)dyn_storage)",
+            "src": "../project:/contracts/NFTMarket.sol:49"
+          },
+          {
+            "contract": "NFTMarket",
+            "label": "_privateItems",
+            "type": "t_struct(Counter)2762_storage",
+            "src": "../project:/contracts/NFTMarket.sol:50"
+          },
+          {
+            "contract": "NFTMarket",
+            "label": "idToPrivateMarketItem",
+            "type": "t_mapping(t_uint256,t_struct(MarketItem)3167_storage)",
+            "src": "../project:/contracts/NFTMarket.sol:51"
+          },
+          {
+            "contract": "NFTMarket",
+            "label": "tokenIdToPrivateItemId",
+            "type": "t_mapping(t_uint256,t_uint256)",
+            "src": "../project:/contracts/NFTMarket.sol:52"
+          }
+        ],
+        "types": {
+          "t_struct(Counter)2762_storage": {
+            "label": "struct Counters.Counter",
+            "members": [
+              {
+                "label": "_value",
+                "type": "t_uint256"
+              }
+            ]
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_uint32": {
+            "label": "uint32"
+          },
+          "t_mapping(t_uint256,t_struct(MarketItem)3167_storage)": {
+            "label": "mapping(uint256 => struct NFTMarket.MarketItem)"
+          },
+          "t_struct(MarketItem)3167_storage": {
+            "label": "struct NFTMarket.MarketItem",
+            "members": [
+              {
+                "label": "itemId",
+                "type": "t_uint256"
+              },
+              {
+                "label": "nftContract",
+                "type": "t_address"
+              },
+              {
+                "label": "tokenId",
+                "type": "t_uint256"
+              },
+              {
+                "label": "offeror",
+                "type": "t_address"
+              },
+              {
+                "label": "owner",
+                "type": "t_address"
+              },
+              {
+                "label": "price",
+                "type": "t_uint256"
+              },
+              {
+                "label": "currency",
+                "type": "t_address"
+              },
+              {
+                "label": "isAuction",
+                "type": "t_bool"
+              },
+              {
+                "label": "isPublisher",
+                "type": "t_bool"
+              },
+              {
+                "label": "minimumOffer",
+                "type": "t_uint256"
+              },
+              {
+                "label": "duration",
+                "type": "t_uint256"
+              },
+              {
+                "label": "bidder",
+                "type": "t_address"
+              },
+              {
+                "label": "lockedBid",
+                "type": "t_uint256"
+              },
+              {
+                "label": "invitedBidder",
+                "type": "t_address"
+              }
+            ]
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_mapping(t_uint256,t_uint256)": {
+            "label": "mapping(uint256 => uint256)"
+          },
+          "t_mapping(t_address,t_array(t_struct(Plan)3180_storage)dyn_storage)": {
+            "label": "mapping(address => struct NFTMarket.Plan[])"
+          },
+          "t_array(t_struct(Plan)3180_storage)dyn_storage": {
+            "label": "struct NFTMarket.Plan[]"
+          },
+          "t_struct(Plan)3180_storage": {
+            "label": "struct NFTMarket.Plan",
+            "members": [
+              {
+                "label": "owner",
+                "type": "t_address"
+              },
+              {
+                "label": "price",
+                "type": "t_uint256"
+              },
+              {
+                "label": "creator",
+                "type": "t_address"
+              },
+              {
+                "label": "endDate",
+                "type": "t_uint256"
+              },
+              {
+                "label": "currency",
+                "type": "t_address"
+              },
+              {
+                "label": "timestamp",
+                "type": "t_uint256"
+              }
+            ]
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]"
+          }
+        }
+      }
+    },
+    "297596fc689800879e5b6fc5c9e649ef6cd99d0b0abbe7e981437a411e93c789": {
+      "address": "0x2a0b0f1E5cDF079cf5265779503de6Ce938c52C9",
+      "txHash": "0x56aa2062fceea462277a0a5c4d2caa37b574a322b691ba2373b40990091ab94b",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:39"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:44"
+          },
+          {
+            "contract": "ContextUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol:36"
+          },
+          {
+            "contract": "OwnableUpgradeable",
+            "label": "_owner",
+            "type": "t_address",
+            "src": "../@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:22"
+          },
+          {
+            "contract": "OwnableUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:87"
+          },
+          {
+            "contract": "PausableUpgradeable",
+            "label": "_paused",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts-upgradeable/security/PausableUpgradeable.sol:29"
+          },
+          {
+            "contract": "PausableUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/security/PausableUpgradeable.sol:102"
+          },
+          {
+            "contract": "NFTMarket",
+            "label": "_itemIds",
+            "type": "t_struct(Counter)2762_storage",
+            "src": "../project:/contracts/NFTMarket.sol:39"
+          },
+          {
+            "contract": "NFTMarket",
+            "label": "_itemsSold",
+            "type": "t_struct(Counter)2762_storage",
+            "src": "../project:/contracts/NFTMarket.sol:40"
+          },
+          {
+            "contract": "NFTMarket",
+            "label": "_itemsRemoved",
+            "type": "t_struct(Counter)2762_storage",
+            "src": "../project:/contracts/NFTMarket.sol:41"
+          },
+          {
+            "contract": "NFTMarket",
+            "label": "feeAddress",
+            "type": "t_address",
+            "src": "../project:/contracts/NFTMarket.sol:43"
+          },
+          {
+            "contract": "NFTMarket",
+            "label": "defaultFee",
+            "type": "t_uint32",
+            "src": "../project:/contracts/NFTMarket.sol:45"
+          },
+          {
+            "contract": "NFTMarket",
+            "label": "idToMarketItem",
+            "type": "t_mapping(t_uint256,t_struct(MarketItem)3167_storage)",
+            "src": "../project:/contracts/NFTMarket.sol:47"
+          },
+          {
+            "contract": "NFTMarket",
+            "label": "tokenIdToItemId",
+            "type": "t_mapping(t_uint256,t_uint256)",
+            "src": "../project:/contracts/NFTMarket.sol:48"
+          },
+          {
+            "contract": "NFTMarket",
+            "label": "registrations",
+            "type": "t_mapping(t_address,t_array(t_struct(Plan)3180_storage)dyn_storage)",
+            "src": "../project:/contracts/NFTMarket.sol:49"
+          },
+          {
+            "contract": "NFTMarket",
+            "label": "_privateItems",
+            "type": "t_struct(Counter)2762_storage",
+            "src": "../project:/contracts/NFTMarket.sol:50"
+          },
+          {
+            "contract": "NFTMarket",
+            "label": "idToPrivateMarketItem",
+            "type": "t_mapping(t_uint256,t_struct(MarketItem)3167_storage)",
+            "src": "../project:/contracts/NFTMarket.sol:51"
+          },
+          {
+            "contract": "NFTMarket",
+            "label": "tokenIdToPrivateItemId",
+            "type": "t_mapping(t_uint256,t_uint256)",
+            "src": "../project:/contracts/NFTMarket.sol:52"
+          }
+        ],
+        "types": {
+          "t_struct(Counter)2762_storage": {
+            "label": "struct Counters.Counter",
+            "members": [
+              {
+                "label": "_value",
+                "type": "t_uint256"
+              }
+            ]
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_uint32": {
+            "label": "uint32"
+          },
+          "t_mapping(t_uint256,t_struct(MarketItem)3167_storage)": {
+            "label": "mapping(uint256 => struct NFTMarket.MarketItem)"
+          },
+          "t_struct(MarketItem)3167_storage": {
+            "label": "struct NFTMarket.MarketItem",
+            "members": [
+              {
+                "label": "itemId",
+                "type": "t_uint256"
+              },
+              {
+                "label": "nftContract",
+                "type": "t_address"
+              },
+              {
+                "label": "tokenId",
+                "type": "t_uint256"
+              },
+              {
+                "label": "offeror",
+                "type": "t_address"
+              },
+              {
+                "label": "owner",
+                "type": "t_address"
+              },
+              {
+                "label": "price",
+                "type": "t_uint256"
+              },
+              {
+                "label": "currency",
+                "type": "t_address"
+              },
+              {
+                "label": "isAuction",
+                "type": "t_bool"
+              },
+              {
+                "label": "isPublisher",
+                "type": "t_bool"
+              },
+              {
+                "label": "minimumOffer",
+                "type": "t_uint256"
+              },
+              {
+                "label": "duration",
+                "type": "t_uint256"
+              },
+              {
+                "label": "bidder",
+                "type": "t_address"
+              },
+              {
+                "label": "lockedBid",
+                "type": "t_uint256"
+              },
+              {
+                "label": "invitedBidder",
+                "type": "t_address"
+              }
+            ]
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_mapping(t_uint256,t_uint256)": {
+            "label": "mapping(uint256 => uint256)"
+          },
+          "t_mapping(t_address,t_array(t_struct(Plan)3180_storage)dyn_storage)": {
+            "label": "mapping(address => struct NFTMarket.Plan[])"
+          },
+          "t_array(t_struct(Plan)3180_storage)dyn_storage": {
+            "label": "struct NFTMarket.Plan[]"
+          },
+          "t_struct(Plan)3180_storage": {
+            "label": "struct NFTMarket.Plan",
+            "members": [
+              {
+                "label": "owner",
+                "type": "t_address"
+              },
+              {
+                "label": "price",
+                "type": "t_uint256"
+              },
+              {
+                "label": "creator",
+                "type": "t_address"
+              },
+              {
+                "label": "endDate",
+                "type": "t_uint256"
+              },
+              {
+                "label": "currency",
+                "type": "t_address"
+              },
+              {
+                "label": "timestamp",
+                "type": "t_uint256"
+              }
+            ]
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]"
+          }
+        }
+      }
+    },
+    "bd3ba2d017dbd7727bc9a25e96fc42f2a1cdf3553c785311508315f5d7fac6f8": {
+      "address": "0xBAEb665907424a05B0289186b360b00b5556dbfE",
+      "txHash": "0x25b30ed1bdfa3bc343eb358305e5bf648fd9a7559aa0a438327f46af8bba06ee",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:39"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:44"
+          },
+          {
+            "contract": "ContextUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol:36"
+          },
+          {
+            "contract": "OwnableUpgradeable",
+            "label": "_owner",
+            "type": "t_address",
+            "src": "../@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:22"
+          },
+          {
+            "contract": "OwnableUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:87"
+          },
+          {
+            "contract": "PausableUpgradeable",
+            "label": "_paused",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts-upgradeable/security/PausableUpgradeable.sol:29"
+          },
+          {
+            "contract": "PausableUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/security/PausableUpgradeable.sol:102"
+          },
+          {
+            "contract": "NFTMarket",
+            "label": "_itemIds",
+            "type": "t_struct(Counter)2762_storage",
+            "src": "../project:/contracts/NFTMarket.sol:39"
+          },
+          {
+            "contract": "NFTMarket",
+            "label": "_itemsSold",
+            "type": "t_struct(Counter)2762_storage",
+            "src": "../project:/contracts/NFTMarket.sol:40"
+          },
+          {
+            "contract": "NFTMarket",
+            "label": "_itemsRemoved",
+            "type": "t_struct(Counter)2762_storage",
+            "src": "../project:/contracts/NFTMarket.sol:41"
+          },
+          {
+            "contract": "NFTMarket",
+            "label": "feeAddress",
+            "type": "t_address",
+            "src": "../project:/contracts/NFTMarket.sol:43"
+          },
+          {
+            "contract": "NFTMarket",
+            "label": "defaultFee",
+            "type": "t_uint32",
+            "src": "../project:/contracts/NFTMarket.sol:45"
+          },
+          {
+            "contract": "NFTMarket",
+            "label": "idToMarketItem",
+            "type": "t_mapping(t_uint256,t_struct(MarketItem)3167_storage)",
+            "src": "../project:/contracts/NFTMarket.sol:47"
+          },
+          {
+            "contract": "NFTMarket",
+            "label": "tokenIdToItemId",
+            "type": "t_mapping(t_uint256,t_uint256)",
+            "src": "../project:/contracts/NFTMarket.sol:48"
+          },
+          {
+            "contract": "NFTMarket",
+            "label": "registrations",
+            "type": "t_mapping(t_address,t_array(t_struct(Plan)3180_storage)dyn_storage)",
+            "src": "../project:/contracts/NFTMarket.sol:49"
+          },
+          {
+            "contract": "NFTMarket",
+            "label": "_privateItems",
+            "type": "t_struct(Counter)2762_storage",
+            "src": "../project:/contracts/NFTMarket.sol:50"
+          },
+          {
+            "contract": "NFTMarket",
+            "label": "idToPrivateMarketItem",
+            "type": "t_mapping(t_uint256,t_struct(MarketItem)3167_storage)",
+            "src": "../project:/contracts/NFTMarket.sol:51"
+          },
+          {
+            "contract": "NFTMarket",
+            "label": "tokenIdToPrivateItemId",
+            "type": "t_mapping(t_uint256,t_uint256)",
+            "src": "../project:/contracts/NFTMarket.sol:52"
+          }
+        ],
+        "types": {
+          "t_struct(Counter)2762_storage": {
+            "label": "struct Counters.Counter",
+            "members": [
+              {
+                "label": "_value",
+                "type": "t_uint256"
+              }
+            ]
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_uint32": {
+            "label": "uint32"
+          },
+          "t_mapping(t_uint256,t_struct(MarketItem)3167_storage)": {
+            "label": "mapping(uint256 => struct NFTMarket.MarketItem)"
+          },
+          "t_struct(MarketItem)3167_storage": {
+            "label": "struct NFTMarket.MarketItem",
+            "members": [
+              {
+                "label": "itemId",
+                "type": "t_uint256"
+              },
+              {
+                "label": "nftContract",
+                "type": "t_address"
+              },
+              {
+                "label": "tokenId",
+                "type": "t_uint256"
+              },
+              {
+                "label": "offeror",
+                "type": "t_address"
+              },
+              {
+                "label": "owner",
+                "type": "t_address"
+              },
+              {
+                "label": "price",
+                "type": "t_uint256"
+              },
+              {
+                "label": "currency",
+                "type": "t_address"
+              },
+              {
+                "label": "isAuction",
+                "type": "t_bool"
+              },
+              {
+                "label": "isPublisher",
+                "type": "t_bool"
+              },
+              {
+                "label": "minimumOffer",
+                "type": "t_uint256"
+              },
+              {
+                "label": "duration",
+                "type": "t_uint256"
+              },
+              {
+                "label": "bidder",
+                "type": "t_address"
+              },
+              {
+                "label": "lockedBid",
+                "type": "t_uint256"
+              },
+              {
+                "label": "invitedBidder",
+                "type": "t_address"
+              }
+            ]
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_mapping(t_uint256,t_uint256)": {
+            "label": "mapping(uint256 => uint256)"
+          },
+          "t_mapping(t_address,t_array(t_struct(Plan)3180_storage)dyn_storage)": {
+            "label": "mapping(address => struct NFTMarket.Plan[])"
+          },
+          "t_array(t_struct(Plan)3180_storage)dyn_storage": {
+            "label": "struct NFTMarket.Plan[]"
+          },
+          "t_struct(Plan)3180_storage": {
+            "label": "struct NFTMarket.Plan",
+            "members": [
+              {
+                "label": "owner",
+                "type": "t_address"
+              },
+              {
+                "label": "price",
+                "type": "t_uint256"
+              },
+              {
+                "label": "creator",
+                "type": "t_address"
+              },
+              {
+                "label": "endDate",
+                "type": "t_uint256"
+              },
+              {
+                "label": "currency",
+                "type": "t_address"
+              },
+              {
+                "label": "timestamp",
+                "type": "t_uint256"
+              }
+            ]
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]"
+          }
+        }
+      }
+    },
+    "ecf60b75a792c8cc3b2796c1931dfc538262862a7a75758b405c63dfe2b4ee22": {
+      "address": "0x1c49134a488524B6a750e1cbE868b4ACaC105a8A",
+      "txHash": "0xceba999b0ed80c688311958276ae6d32cdacbfacbfdcb80ad04d38eff1f0ee7d",
       "layout": {
         "storage": [
           {

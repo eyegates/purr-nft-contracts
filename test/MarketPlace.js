@@ -997,6 +997,101 @@ contract(
         result = await market.fetchMyPrivateMarketItems({ from: nftOwner });
         result.length.should.equal(myPrivatemarkets.length);
       });
+
+      it("creates a sale and buyer re-sale nft", async () => {
+        tokenId = Date.now();
+        marketItem = await prepareMarketItem(
+          nftContract,
+          tokenId,
+          price,
+          token.address,
+          false,
+          true,
+          0,
+          0,
+          nftOwner
+        );
+
+        result = await market.createMarketItem(
+          marketItem.nft.address,
+          marketItem.tokenId,
+          marketItem.price,
+          marketItem.currency,
+          marketItem.auction,
+          marketItem.publisher,
+          marketItem.minimumOffer,
+          marketItem.duration,
+          { from: nftOwner }
+        );
+
+        result = await market.createMarketSale(marketItem.tokenId, {
+          from: user,
+        });
+
+        const owner = await nftContract.ownerOf(marketItem.tokenId);
+        owner.should.equal(user);
+
+        let marketItems = await market.fetchMarketItems();
+        let listedItems = await market.fetchMyListedNFTs({ from: user });
+        let mynfts = await market.fetchMyNFTs({ from: user });
+
+        await nftContract.setApprovalForAll(market.address, true, {
+          from: user,
+        });
+
+        result = await market.createMarketItem(
+          marketItem.nft.address,
+          tokenId,
+          marketItem.price,
+          marketItem.currency,
+          marketItem.auction,
+          marketItem.publisher,
+          marketItem.minimumOffer,
+          marketItem.duration,
+          { from: user }
+        );
+
+        result = await market.getMarketItem(marketItem.tokenId);
+        result.tokenId.toString().should.equal(tokenId.toString());
+
+        await market.removeMarketItem(marketItem.tokenId, nftContract.address, {
+          from: user,
+        });
+
+        result = await market.fetchMarketItems();
+        result.length.should.equal(marketItems.length);
+
+        result = await market.fetchMyListedNFTs({ from: user });
+        result.length.should.equal(listedItems.length);
+
+        result = await market.fetchMyNFTs({ from: user });
+        result.length.should.equal(mynfts.length);
+
+        marketItems = await market.fetchMarketItems();
+        listedItems = await market.fetchMyListedNFTs({ from: user });
+        mynfts = await market.fetchMyNFTs({ from: user });
+
+        await market.createMarketItem(
+          marketItem.nft.address,
+          marketItem.tokenId,
+          marketItem.price,
+          marketItem.currency,
+          marketItem.auction,
+          marketItem.publisher,
+          marketItem.minimumOffer,
+          marketItem.duration,
+          { from: user }
+        );
+
+        result = await market.fetchMarketItems();
+        result.length.should.equal(marketItems.length + 1);
+
+        result = await market.fetchMyListedNFTs({ from: user });
+        result.length.should.equal(listedItems.length + 1);
+
+        result = await market.fetchMyNFTs({ from: user });
+        result.length.should.equal(mynfts.length - 1);
+      });
     });
   }
 );

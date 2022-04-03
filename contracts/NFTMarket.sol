@@ -239,7 +239,7 @@ contract NFTMarket is Initializable, OwnableUpgradeable, PausableUpgradeable {
         );
 
         _privateItems.increment();
-        uint256 itemId = _itemIds.current();
+        uint256 itemId = _privateItems.current();
         tokenIdToPrivateItemId[tokenId] = itemId;
         idToPrivateMarketItem[itemId] = MarketItem(
             itemId,
@@ -313,7 +313,6 @@ contract NFTMarket is Initializable, OwnableUpgradeable, PausableUpgradeable {
                 address(0)
             );
         } else {
-            _itemsRemoved.decrement();
             itemId = tokenIdToItemId[tokenId];
             MarketItem storage marketItem = idToMarketItem[itemId];
             marketItem.nftContract = nftContract;
@@ -374,7 +373,7 @@ contract NFTMarket is Initializable, OwnableUpgradeable, PausableUpgradeable {
         idToMarketItem[itemId].owner = msg.sender;
         idToMarketItem[itemId].offeror = address(0);
         IERC721(nftContract).transferFrom(address(this), msg.sender, tokenId);
-        _itemsRemoved.increment();
+
         emit MarketItemRemoved(itemId, nftContract, tokenId);
     }
 
@@ -501,12 +500,17 @@ contract NFTMarket is Initializable, OwnableUpgradeable, PausableUpgradeable {
 
     function fetchMarketItems() public view returns (MarketItem[] memory) {
         uint256 itemCount = _itemIds.current();
-        uint256 unsoldItemCount = _itemIds.current() -
-            _itemsSold.current() -
-            _itemsRemoved.current();
         uint256 currentIndex = 0;
 
-        MarketItem[] memory items = new MarketItem[](unsoldItemCount);
+        //==============
+        uint256 count = 0;
+        for (uint256 i = 0; i < itemCount; i++) {
+            if (idToMarketItem[i + 1].owner == address(0)) {
+                count += 1;
+            }
+        }
+
+        MarketItem[] memory items = new MarketItem[](count);
         for (uint256 i = 0; i < itemCount; i++) {
             if (idToMarketItem[i + 1].owner == address(0)) {
                 uint256 currentId = idToMarketItem[i + 1].itemId;
@@ -517,6 +521,7 @@ contract NFTMarket is Initializable, OwnableUpgradeable, PausableUpgradeable {
         }
 
         return items;
+        //==============
     }
 
     function fetchMyListedNFTs() public view returns (MarketItem[] memory) {
@@ -544,7 +549,7 @@ contract NFTMarket is Initializable, OwnableUpgradeable, PausableUpgradeable {
     }
 
     function fetchMyPrivateNFTs() public view returns (MarketItem[] memory) {
-        uint256 totalItemCount = _itemIds.current();
+        uint256 totalItemCount = _privateItems.current();
         uint256 itemCount = 0;
         uint256 currentIndex = 0;
 
@@ -574,7 +579,7 @@ contract NFTMarket is Initializable, OwnableUpgradeable, PausableUpgradeable {
         view
         returns (MarketItem[] memory)
     {
-        uint256 totalItemCount = _itemIds.current();
+        uint256 totalItemCount = _privateItems.current();
         uint256 itemCount = 0;
         uint256 currentIndex = 0;
 
@@ -764,6 +769,14 @@ contract NFTMarket is Initializable, OwnableUpgradeable, PausableUpgradeable {
         idToMarketItem[itemId].bidder = bidder;
         idToMarketItem[itemId].lockedBid = lockedBid;
         emit BidUpdated(idToMarketItem[itemId].tokenId, bidder, lockedBid);
+    }
+
+    function _marketItemCount() public view returns (uint256) {
+        return _itemIds.current();
+    }
+
+    function _marketPrivateItemCount() public view returns (uint256) {
+        return _privateItems.current();
     }
 
     modifier onlyPrivateMarketItem(uint256 tokenId) {
