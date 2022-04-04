@@ -704,6 +704,391 @@
       "address": "0x741060D1b71914697FBC75aceFceD7F731c5bC87",
       "txHash": "0xc33392adf5bc6aeab43f978697edbbdf0fab05ce3e0758969ce9281072110856",
       "kind": "transparent"
+    },
+    {
+      "address": "0x6Ca3A12bD29D565c6DfCE082495e6A581fdB9624",
+      "txHash": "0xd0d20ce24590f5e9788c50c3f4f547e137b675b2c6695f02babb266f5a872f67",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xdc03EDeD66C8eE0405dfd94F605D8113c16898a3",
+      "txHash": "0x601f4809ebf3892953c15c7759bfa5a2dc054a548afafaa1c37a777dbbaf12cc",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x33e2EDDeCc808f4fec4F0f0EC3b1c2d7D545847e",
+      "txHash": "0x14593357a7f1687c39a39d14d1983e5f234e3eea770198bf8232d82bedb4b9be",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x690eeE14dbf17b07C35F0F7adF5BDF01A7ac6406",
+      "txHash": "0xdc8b2631683adfd1fe132980ca14b827dc5476fc6051f2976949c9aa7c31899e",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xF021DC69C7Fa5eA70ef9fe84B9Ba87B1Cbc6B589",
+      "txHash": "0xaa81382be2f18a2066b1b9987af02314469daaf6c4477d388bf97978b196561d",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xF0deb2D5a28505bE1be3B9A33c585534c5E23E88",
+      "txHash": "0x41c21f2585ee41473d83df56b02beb133e2862d5c4b0c4ff374546a3f80f65d3",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xa61802267bC3a4Ce8ea2b3D32e8D00919ecDd293",
+      "txHash": "0x3b865db07be6abc1002409c29a45ac6bc1b663b012a4cbd7fafd70832faabc02",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x06b3E73918d47FF21Aa9009EfAb5655ED245c6c1",
+      "txHash": "0x6fea35b9bc85ad97b52837e227596b767810c8063d0b9ebe8fadf6e1447da50b",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xaC4aEf407Ed8502A8E2ede24b836d1003473Fb38",
+      "txHash": "0xe15ffbeb500a59d6bdf9de7577cf1dd17988c8390bbe9bed93b2aa014353ec93",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x89a6F232b5BFC11bbe91D6160872B02A5e42a3F4",
+      "txHash": "0x0d303a42e4aa80150f866dac497d5978ac24b1823ab97b89cc8feeed1ff56c9e",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x8e291738a21079d27Bb694AA20Ac92FbA89C54cF",
+      "txHash": "0x7cffa623fa4b011e7805a8d6a83ebfd906ebc692d181be1a4428b13b66192d4d",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x9215A55Ee8023353A368BeBbf0F12B5db7e7C456",
+      "txHash": "0x5c4d755059198b7150544c106d7a8dd4df5285487bce88a669e43aea49f7ea8f",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x13695ea3Ca22AdA35B27BA15a718386c475d7485",
+      "txHash": "0x451bece1f87d491579f38af4f2a51c3cca18ffebbe7b6cfdc7710feef03d2ef9",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x80C4439D4C5A97651f5E82e466143626E9082702",
+      "txHash": "0xbe2dcd9914d4cb7dc083f1777708907f9a1d53a1dc02c60dd9d88a5e77f2d70f",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xC765F6Be0932D88b458Cf4A52c36EDCc244acaEA",
+      "txHash": "0xe328638baf2d0c37f1e1628be7620e31ac99d801b0ac121234ada1b7e3224a3e",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xB25A2Fec0952C949d4b9E9e482c9B89Df6f8051f",
+      "txHash": "0x57896a6ac8d93f183225f1d8c669e17d6ecf3ddfbf2c026507d472996b22f400",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x08FDCAecA663507DC60dF7AB8B2AF76c266928be",
+      "txHash": "0xfeb51073ba4d6270afed823a51318fe6d33bdb50013c19436358b1690e89004a",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xd4215fc1a4a0866db6DEd5383d7d48Ef52bb9C47",
+      "txHash": "0x154d2a0bb423d340fda9f5b3a7c53af65c495a896180ab5006f4f3db13c4e58b",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xCA286E569bc9092dA7324d919D4370C9dea6Caf5",
+      "txHash": "0xcd259b58cc214264a79aeeee3180b9c1559dfd0ee5cc0a2bbd0441b8175417b0",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xE19f8BaF066309Ad02c9FF0626ED265335823fF2",
+      "txHash": "0x166faac0feec0ac05a9ceed9a7fcdf601d4b5c21d0f553cae03c4498db0ad01d",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x7fafCc87aED762ea06c9fd88f0469Af64af8809e",
+      "txHash": "0xf80c4ffead7a1bd3d0dd7e161395c2326a3d2c6145f1ad80b687ca75ac1adaa2",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xa22ae51be3De98e39C71EA631C9D6b3196e6d63f",
+      "txHash": "0x8183f07f9aea07baf6402656f31da733ad9c4a2404285a9f28d763bff7f625c5",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x9745Ef88C148c16448904dFd380C3bfE7485554a",
+      "txHash": "0x48f87bf129dc85e5b7ade44b0ca0e8d86d6659a928540cf02e7477dac87eff20",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x176EA4C89fbB9600C14071d1412C542679A37547",
+      "txHash": "0x1e6d63c4882ff93455d11c8f5ec839f60d30feea8447de3a0699b2d19aab18ad",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x64847295D625bd5c0e32AD066D61B9e1484deC7B",
+      "txHash": "0xe9fa71e7d94c4beb768e4abc8cd96cf3c73f7244f74d10ecf89b2f0cbac39f67",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x00881123adEFba4BB1F5E0A541b7c315148f27B0",
+      "txHash": "0x8bfdd624f90635f16f6490f6bd4494be69ad2b35f6c1e3d8aef867179037f60a",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xfCdd7A49BbD7B048C1805818d76F16CF01446025",
+      "txHash": "0xd8ab30f54b16ea6703937b3dcd7c7135788c1982d79efe65460fa97690680a8c",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x74eF957Ec67780f9bC0d56B3607af35262Ec9a94",
+      "txHash": "0x0aee5142a10534e8f69e6fabc4912038c4beec3d80b2774b7b478ff18e746e84",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x7f146C897EB5326971ED54c6aC910101Aa74bD6b",
+      "txHash": "0x47de871f49fd886687c35abee2aac14f8302eace95454ca5db3d2e2f591908af",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xdC294C5E5255cD964BD7B0e3cd2ac07CaBc484EB",
+      "txHash": "0x12da9a0b43cbadfda38e5048fead6286543097b298f3328ee9e3aed051336ad3",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xC8ff3abEc2B67323B0df8cccd83A8AD2888Ed23C",
+      "txHash": "0x0849a2b674a22adb0bb36322f8ab6521575e5b811e43fed4aec7d889ecc9e096",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xda33F22DE66543E14b319F8d49500bfbdCA09055",
+      "txHash": "0xcfc7f2892156177481a62ae661543a259fb36662fc8473b70ff4f0b25f4318eb",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x2F5951cbfCfa13f0Df64c5f13F907B66C2d28996",
+      "txHash": "0x8d6ec26b3f98c4ce99af91836f6bb2694f753c5394de905d82471e35906a89d4",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x9445D97D61e2A6e95318A286009f759f3fc01828",
+      "txHash": "0x65f3548379916ba021c623acfee9ba6e146781afca035811971d1313eef181ad",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xbb869FFA5cb1a05BD17cf45C6b375c9E22a20E70",
+      "txHash": "0xdb567e61bcfa37c3a044c9d3052ce6b77a2dd53f261e8226072a883e2521c22d",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xd4a909F9BDB759d1c64C3B24ae3d8Aeb6bb81727",
+      "txHash": "0x1944f6ebb67d0ffad053683e981e4d2076150a3c0b68f3df16c6a967278a1e3b",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x6A94DD7F1Fb51386168f9F1C24688E4D2Ac39722",
+      "txHash": "0xb1bfc0811b2605a51adf7634738136adb394248fe73274e9515a63549e2e3912",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xd7692b4D07aBf1602E84aC7E822916b9309442a9",
+      "txHash": "0x252fc20c62ae496b1fc20fb4f9a3e7b105e5d79e6a7ddc1f907702fd2a87d06b",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xa7b03557e30d8437977745aC98292325c95aB1a2",
+      "txHash": "0x138f3fea99963cd7c4b759e1e8e7398e72af2242fa21c9cabd6f337e91b31b4f",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xbB75FB760A21a50db257c5C4035A3b315d19Be1A",
+      "txHash": "0x711054f822c3e7261e8c04b3827cfd3c9f70cc655cf8680a979f0d5f8809b50c",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xCA76280815663589aD583306F99653cB949e7838",
+      "txHash": "0xcb48abd556d2e0cf5cfae45ffd6cc4d87c18cbc790418fd7d233366af5c0b91e",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x253925b8c8E4Aae544DC770be88499923290F050",
+      "txHash": "0xfe9cbaa9c6b3549b22f835bd927e52cb490917fc09305ddc1dd8d119e220aea8",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x21257AF95225a19c60bfb0AdBF0974f9755e2f01",
+      "txHash": "0x6b6f0d45a0a8858354a9396134f872356a91be29115468899047e16adfa73279",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x4C6018255625CF477558a8600D2d1D7FE441C610",
+      "txHash": "0x0cec8632adafd643fa89d4361ae2d65b1c5f0d403e8ce11858e1aed7c340a9ee",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x62e40bc515f96380Ac0Fa8d27BbD9C335441a94b",
+      "txHash": "0x016a7f1ff717344b86d859ecea98213ad3410759a2d93183e814c5c2a948f59d",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x75355F855b74B83220370A4A2721edC478143870",
+      "txHash": "0x11a7af968872d01772e44b96cf5d694718d213fd46c05f583fecbf455dd44ecc",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x7BBd340FbB411e6CDd6FFd85305b739f8EcAFC07",
+      "txHash": "0x7abbf29094c17a3da1529da2bce6c77deea4fc124bdb5d39973fc5c650f90347",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xB1A825885C77dB6Ac11fC75F54A7dBC32C97F916",
+      "txHash": "0x1c75d98276bdd8c33f688e910757d05cfbac9d452012642bcf4d9ed1f1a940fe",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x6A88F755c5914b8E3430EcA5F50De8745344b777",
+      "txHash": "0x39bc853c1ffc9c63869ad9e7f75f99b7171f5ba43b46904f8dab750fbc6b3c05",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x862d4bFFEf3e090cF37e3c370c39C7D02824BA12",
+      "txHash": "0x1ff44b1353643f521221ece2b763e103da0bc3e214fb2f722f07543b0e1ab5dc",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x48D7F692E7e21ccD9eDe57d48b761e3796eB1014",
+      "txHash": "0xb8bca49ba462b342d3f05b7332e403ec46f5e81821402e09f14ad5cf74f6afde",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x1B8E66EB0dD220ECA2Ef5a6D5ce6F0F1F04BDC92",
+      "txHash": "0x2409cc695251663321db93b40ea151c9418a02038532ea34421eebf256bc545e",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x7b52DeE689088d5806F4cc1474223f41CB304f40",
+      "txHash": "0xe9c6b9115b1371669f437a9259bc4e6408b6da6524acf62fc5d34a4cb53a7ec8",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xd81D6de844cDEFeB59e40F813166A37CC10E4589",
+      "txHash": "0x3120f33a7e6531f7863490c75a14f0d94e193d95bba4c3b1100d31a420cafbb9",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x5F2A13258F5EdF535399b2C874eedce267365110",
+      "txHash": "0x1a82cef48ddc3bb421d8362dba25b97cfdb6740609102c48b18da84239ebe3ae",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x9453473eBAFb6694aC19C2F7bf48d550203Ee8F1",
+      "txHash": "0x2421cde86d435aa7b0a496a6696192c9dc036e4bcc8f39af5f550352762c154e",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xed941592455e1c83C8568336e21cc4DF8b9b9B4f",
+      "txHash": "0xe5876dff506a5e120fb1bc30920fca56089e34190dcd3fa2a4d3c8439880c05b",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x19B7Bc3377dd2306184d6873657a98Ded51f2d80",
+      "txHash": "0x57fec576b8929b532b1f71eee06dcc3488af88b62705af581d45dcbed3c0a937",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xCAF1b0FC7076948134cA3F593132092b64CAac7B",
+      "txHash": "0xa9f68a51bf7459bfe930284e4837552ae5b8dd68b50c5ff7362e076b266ac2b9",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x1B0DA5cd836fC10CCFB27A881c99A06CeA43681b",
+      "txHash": "0xa023b663b7ca72daa6162d525f06f92f9d000b35ac0a94bbeac3cd948c9ae8db",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xE34B8dd41F1fbE3e2eeCc8257b53d72a25fE53D2",
+      "txHash": "0x0ddd9cfb297789ad3ee98469ed3604c4c500e2c71504b48b8c413f6f426fefda",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x2DBA4b9A991308495C17dD3B4772A00c0dfBD79D",
+      "txHash": "0x68cf6a829a1308d0f5cd213f1902212c6c49ef3fbf2542e59d1e85621ee6c05c",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x0fb15C498c30D79720B22c2f3472D95a4f4167c9",
+      "txHash": "0xa8fa39bb7438279d9da666830188b8e3844232daa4b67aa4526bf3b8f37b5a62",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x17DFe0cA6f733Dd6aA0258486F4B71FD72c22871",
+      "txHash": "0x042aca65c96bc66c5744ba1081504e240938fc7c23e453eaa79381015ffa65b0",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x15A446bF9E18d37976D9e87E426C2f8f58e9F7d1",
+      "txHash": "0x16eb34acdfb28bc99f03ff5b4055b5dd314ae4724253ebfda75911b26048cdaf",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xcA4D2A84c87C71C90E675A407d6EAf2DDf2E7E91",
+      "txHash": "0x733d37c10218e03349d4567ce75cbec7b3a18bc074729368adccb59cc78b66a5",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xD24A1399a2919131Bd69577c661e74CA6f799Fd7",
+      "txHash": "0xfea40439c08bd206046c0337490ae4ccfa4ef8db68db6026173c90229c91fb1f",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xe26d63B3193347fEaA5923297076a99B2Bc745e8",
+      "txHash": "0x97240d2b7b86ecb623f59468c523a00e57e9c8295a6c4fec309fb59f7a74b3c8",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xaaA0Daaa22a7C9b9ba2CCCb5e59bEA99B00F45B3",
+      "txHash": "0x656e390502ededc9a4c50b870df2f566d6bc199d78e0b5943b1586cfb3bb58a0",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xA36f66b39e587265DF374A10Fa0e003F08906AE0",
+      "txHash": "0x8b7dd812f5c93d0ea47706386054fe94036b1808fa1ba8f3dfbdeab5e620d542",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xBefA05e8AeD7f056Dbb494D31AcfaD51c5E46301",
+      "txHash": "0x2f18dfd02658432c7e6e041a18e926e11baf578ccbea9c3d49182c630882397f",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x2eBAF25c15b2897f02aab459C6D5673A0DeFA56d",
+      "txHash": "0x4c8b021456b08c29b5e25b490e9db8e73d5df33df300107ee1648041e3e5cd0e",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x9455855cE8bbFC69DBcb783e2Dd08f2B00564f2c",
+      "txHash": "0x2556ceabc6a8c886b5c9344c4b098d7c767079bf95bd3ff6a2404dd7d2a2392d",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x6FF09d39d25333d46f81Dc32364471Be5A1B048c",
+      "txHash": "0x5df1f5e6dc4f6f5e417495eeb8de6986f467218eb0262b90613b5257a0f01ebf",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x572E1154dbAE570d854BFFD40FfC7dcFD79F9dEf",
+      "txHash": "0x1de6e5850b6065e9e36a0029c0cdbd4e457f219f60e267bc91614075f3a957d1",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x8027D8D6333bAAc9b76c40e9410FD26eb7033592",
+      "txHash": "0xdf5e8c66a54434db8bd85a8628c9e1f3a8586f2c962a7e049c1dde3ffddf608e",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x15674a0aDF0FD0AE8a7D85AeA1346524F138EA5B",
+      "txHash": "0xaf1f540f25cb5998b77e3020d1d4b198e1b4a0dd20854548d94ce2e0dc1a7882",
+      "kind": "transparent"
     }
   ],
   "impls": {
@@ -3369,6 +3754,500 @@
             "label": "struct NFTMarket.Plan[]"
           },
           "t_struct(Plan)3180_storage": {
+            "label": "struct NFTMarket.Plan",
+            "members": [
+              {
+                "label": "owner",
+                "type": "t_address"
+              },
+              {
+                "label": "price",
+                "type": "t_uint256"
+              },
+              {
+                "label": "creator",
+                "type": "t_address"
+              },
+              {
+                "label": "endDate",
+                "type": "t_uint256"
+              },
+              {
+                "label": "currency",
+                "type": "t_address"
+              },
+              {
+                "label": "timestamp",
+                "type": "t_uint256"
+              }
+            ]
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]"
+          }
+        }
+      }
+    },
+    "92e7bc2edd3165e8539c1536bc0ebd3fe4962ff0947e86b4bd6f48de9a9c72df": {
+      "address": "0xCf1f5f126C845c1b4Efe7689fa6cA195e2A8EdE7",
+      "txHash": "0xb2b124c3ea95c71c73fc4d34e3bb38614bf5330488f637a65f27aabdc4f86aa2",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:39"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:44"
+          },
+          {
+            "contract": "ContextUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol:36"
+          },
+          {
+            "contract": "OwnableUpgradeable",
+            "label": "_owner",
+            "type": "t_address",
+            "src": "../@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:22"
+          },
+          {
+            "contract": "OwnableUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:87"
+          },
+          {
+            "contract": "PausableUpgradeable",
+            "label": "_paused",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts-upgradeable/security/PausableUpgradeable.sol:29"
+          },
+          {
+            "contract": "PausableUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/security/PausableUpgradeable.sol:102"
+          },
+          {
+            "contract": "NFTMarket",
+            "label": "_itemIds",
+            "type": "t_struct(Counter)2982_storage",
+            "src": "../project:/contracts/NFTMarket.sol:41"
+          },
+          {
+            "contract": "NFTMarket",
+            "label": "_itemsSold",
+            "type": "t_struct(Counter)2982_storage",
+            "src": "../project:/contracts/NFTMarket.sol:42"
+          },
+          {
+            "contract": "NFTMarket",
+            "label": "_itemsRemoved",
+            "type": "t_struct(Counter)2982_storage",
+            "src": "../project:/contracts/NFTMarket.sol:43"
+          },
+          {
+            "contract": "NFTMarket",
+            "label": "feeAddress",
+            "type": "t_address",
+            "src": "../project:/contracts/NFTMarket.sol:45"
+          },
+          {
+            "contract": "NFTMarket",
+            "label": "defaultFee",
+            "type": "t_uint32",
+            "src": "../project:/contracts/NFTMarket.sol:47"
+          },
+          {
+            "contract": "NFTMarket",
+            "label": "idToMarketItem",
+            "type": "t_mapping(t_uint256,t_struct(MarketItem)3389_storage)",
+            "src": "../project:/contracts/NFTMarket.sol:49"
+          },
+          {
+            "contract": "NFTMarket",
+            "label": "tokenIdToItemId",
+            "type": "t_mapping(t_uint256,t_uint256)",
+            "src": "../project:/contracts/NFTMarket.sol:50"
+          },
+          {
+            "contract": "NFTMarket",
+            "label": "registrations",
+            "type": "t_mapping(t_address,t_array(t_struct(Plan)3402_storage)dyn_storage)",
+            "src": "../project:/contracts/NFTMarket.sol:51"
+          },
+          {
+            "contract": "NFTMarket",
+            "label": "_privateItems",
+            "type": "t_struct(Counter)2982_storage",
+            "src": "../project:/contracts/NFTMarket.sol:52"
+          },
+          {
+            "contract": "NFTMarket",
+            "label": "idToPrivateMarketItem",
+            "type": "t_mapping(t_uint256,t_struct(MarketItem)3389_storage)",
+            "src": "../project:/contracts/NFTMarket.sol:53"
+          },
+          {
+            "contract": "NFTMarket",
+            "label": "tokenIdToPrivateItemId",
+            "type": "t_mapping(t_uint256,t_uint256)",
+            "src": "../project:/contracts/NFTMarket.sol:54"
+          }
+        ],
+        "types": {
+          "t_struct(Counter)2982_storage": {
+            "label": "struct Counters.Counter",
+            "members": [
+              {
+                "label": "_value",
+                "type": "t_uint256"
+              }
+            ]
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_uint32": {
+            "label": "uint32"
+          },
+          "t_mapping(t_uint256,t_struct(MarketItem)3389_storage)": {
+            "label": "mapping(uint256 => struct NFTMarket.MarketItem)"
+          },
+          "t_struct(MarketItem)3389_storage": {
+            "label": "struct NFTMarket.MarketItem",
+            "members": [
+              {
+                "label": "itemId",
+                "type": "t_uint256"
+              },
+              {
+                "label": "nftContract",
+                "type": "t_address"
+              },
+              {
+                "label": "tokenId",
+                "type": "t_uint256"
+              },
+              {
+                "label": "offeror",
+                "type": "t_address"
+              },
+              {
+                "label": "owner",
+                "type": "t_address"
+              },
+              {
+                "label": "price",
+                "type": "t_uint256"
+              },
+              {
+                "label": "currency",
+                "type": "t_address"
+              },
+              {
+                "label": "isAuction",
+                "type": "t_bool"
+              },
+              {
+                "label": "isPublisher",
+                "type": "t_bool"
+              },
+              {
+                "label": "minimumOffer",
+                "type": "t_uint256"
+              },
+              {
+                "label": "duration",
+                "type": "t_uint256"
+              },
+              {
+                "label": "bidder",
+                "type": "t_address"
+              },
+              {
+                "label": "lockedBid",
+                "type": "t_uint256"
+              },
+              {
+                "label": "invitedBidder",
+                "type": "t_address"
+              }
+            ]
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_mapping(t_uint256,t_uint256)": {
+            "label": "mapping(uint256 => uint256)"
+          },
+          "t_mapping(t_address,t_array(t_struct(Plan)3402_storage)dyn_storage)": {
+            "label": "mapping(address => struct NFTMarket.Plan[])"
+          },
+          "t_array(t_struct(Plan)3402_storage)dyn_storage": {
+            "label": "struct NFTMarket.Plan[]"
+          },
+          "t_struct(Plan)3402_storage": {
+            "label": "struct NFTMarket.Plan",
+            "members": [
+              {
+                "label": "owner",
+                "type": "t_address"
+              },
+              {
+                "label": "price",
+                "type": "t_uint256"
+              },
+              {
+                "label": "creator",
+                "type": "t_address"
+              },
+              {
+                "label": "endDate",
+                "type": "t_uint256"
+              },
+              {
+                "label": "currency",
+                "type": "t_address"
+              },
+              {
+                "label": "timestamp",
+                "type": "t_uint256"
+              }
+            ]
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]"
+          }
+        }
+      }
+    },
+    "605a30a3e2f4dda52f183f63370fea84f5894a380655a4026676dc589b0a45a5": {
+      "address": "0x42C367E8afb4E60Db607D9b93feD1B877277C032",
+      "txHash": "0xd8f8647779bb5487a2c79300a624bea01311a141fe432bd99e8b7f3ab6abd4e8",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:39"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:44"
+          },
+          {
+            "contract": "ContextUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol:36"
+          },
+          {
+            "contract": "OwnableUpgradeable",
+            "label": "_owner",
+            "type": "t_address",
+            "src": "../@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:22"
+          },
+          {
+            "contract": "OwnableUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:87"
+          },
+          {
+            "contract": "PausableUpgradeable",
+            "label": "_paused",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts-upgradeable/security/PausableUpgradeable.sol:29"
+          },
+          {
+            "contract": "PausableUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/security/PausableUpgradeable.sol:102"
+          },
+          {
+            "contract": "NFTMarket",
+            "label": "_itemIds",
+            "type": "t_struct(Counter)2982_storage",
+            "src": "../project:/contracts/NFTMarket.sol:41"
+          },
+          {
+            "contract": "NFTMarket",
+            "label": "_itemsSold",
+            "type": "t_struct(Counter)2982_storage",
+            "src": "../project:/contracts/NFTMarket.sol:42"
+          },
+          {
+            "contract": "NFTMarket",
+            "label": "_itemsRemoved",
+            "type": "t_struct(Counter)2982_storage",
+            "src": "../project:/contracts/NFTMarket.sol:43"
+          },
+          {
+            "contract": "NFTMarket",
+            "label": "feeAddress",
+            "type": "t_address",
+            "src": "../project:/contracts/NFTMarket.sol:45"
+          },
+          {
+            "contract": "NFTMarket",
+            "label": "defaultFee",
+            "type": "t_uint32",
+            "src": "../project:/contracts/NFTMarket.sol:47"
+          },
+          {
+            "contract": "NFTMarket",
+            "label": "idToMarketItem",
+            "type": "t_mapping(t_uint256,t_struct(MarketItem)3389_storage)",
+            "src": "../project:/contracts/NFTMarket.sol:49"
+          },
+          {
+            "contract": "NFTMarket",
+            "label": "tokenIdToItemId",
+            "type": "t_mapping(t_uint256,t_uint256)",
+            "src": "../project:/contracts/NFTMarket.sol:50"
+          },
+          {
+            "contract": "NFTMarket",
+            "label": "registrations",
+            "type": "t_mapping(t_address,t_array(t_struct(Plan)3402_storage)dyn_storage)",
+            "src": "../project:/contracts/NFTMarket.sol:51"
+          },
+          {
+            "contract": "NFTMarket",
+            "label": "_privateItems",
+            "type": "t_struct(Counter)2982_storage",
+            "src": "../project:/contracts/NFTMarket.sol:52"
+          },
+          {
+            "contract": "NFTMarket",
+            "label": "idToPrivateMarketItem",
+            "type": "t_mapping(t_uint256,t_struct(MarketItem)3389_storage)",
+            "src": "../project:/contracts/NFTMarket.sol:53"
+          },
+          {
+            "contract": "NFTMarket",
+            "label": "tokenIdToPrivateItemId",
+            "type": "t_mapping(t_uint256,t_uint256)",
+            "src": "../project:/contracts/NFTMarket.sol:54"
+          }
+        ],
+        "types": {
+          "t_struct(Counter)2982_storage": {
+            "label": "struct Counters.Counter",
+            "members": [
+              {
+                "label": "_value",
+                "type": "t_uint256"
+              }
+            ]
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_uint32": {
+            "label": "uint32"
+          },
+          "t_mapping(t_uint256,t_struct(MarketItem)3389_storage)": {
+            "label": "mapping(uint256 => struct NFTMarket.MarketItem)"
+          },
+          "t_struct(MarketItem)3389_storage": {
+            "label": "struct NFTMarket.MarketItem",
+            "members": [
+              {
+                "label": "itemId",
+                "type": "t_uint256"
+              },
+              {
+                "label": "nftContract",
+                "type": "t_address"
+              },
+              {
+                "label": "tokenId",
+                "type": "t_uint256"
+              },
+              {
+                "label": "offeror",
+                "type": "t_address"
+              },
+              {
+                "label": "owner",
+                "type": "t_address"
+              },
+              {
+                "label": "price",
+                "type": "t_uint256"
+              },
+              {
+                "label": "currency",
+                "type": "t_address"
+              },
+              {
+                "label": "isAuction",
+                "type": "t_bool"
+              },
+              {
+                "label": "isPublisher",
+                "type": "t_bool"
+              },
+              {
+                "label": "minimumOffer",
+                "type": "t_uint256"
+              },
+              {
+                "label": "duration",
+                "type": "t_uint256"
+              },
+              {
+                "label": "bidder",
+                "type": "t_address"
+              },
+              {
+                "label": "lockedBid",
+                "type": "t_uint256"
+              },
+              {
+                "label": "invitedBidder",
+                "type": "t_address"
+              }
+            ]
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_mapping(t_uint256,t_uint256)": {
+            "label": "mapping(uint256 => uint256)"
+          },
+          "t_mapping(t_address,t_array(t_struct(Plan)3402_storage)dyn_storage)": {
+            "label": "mapping(address => struct NFTMarket.Plan[])"
+          },
+          "t_array(t_struct(Plan)3402_storage)dyn_storage": {
+            "label": "struct NFTMarket.Plan[]"
+          },
+          "t_struct(Plan)3402_storage": {
             "label": "struct NFTMarket.Plan",
             "members": [
               {

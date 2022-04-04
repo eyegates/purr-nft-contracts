@@ -4,6 +4,8 @@ pragma solidity 0.8.4;
 import "@openzeppelin/contracts/utils/Counters.sol";
 import "@openzeppelin/contracts/token/ERC721/IERC721.sol";
 import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
+import "@openzeppelin/contracts/utils/introspection/IERC165.sol";
+import "@openzeppelin/contracts/interfaces/IERC2981.sol";
 import "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol";
 import "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol";
 import "@openzeppelin/contracts-upgradeable/security/PausableUpgradeable.sol";
@@ -119,6 +121,8 @@ contract NFTMarket is Initializable, OwnableUpgradeable, PausableUpgradeable {
         address creator,
         address currency
     );
+
+    event RoyaltyTransferred(address from, address to, uint256 amount);
 
     function initialize(address _feeAddress, uint32 _defaultFee)
         public
@@ -421,15 +425,35 @@ contract NFTMarket is Initializable, OwnableUpgradeable, PausableUpgradeable {
         address nftContract = idToMarketItem[itemId].nftContract;
         address buyer = msg.sender;
 
+        address receiver = address(0);
+        uint256 royaltyAmount = 0;
+
+        if (
+            IERC165(nftContract).supportsInterface(type(IERC2981).interfaceId)
+        ) {
+            (address _receiver, uint256 _royaltyAmount) = IERC2981(nftContract)
+                .royaltyInfo(tokenId, price);
+
+            if (offeror != _receiver) {
+                receiver = _receiver;
+                royaltyAmount = _royaltyAmount;
+            }
+        }
+
         // compute fee amount
         uint256 fee = (price * defaultFee) / 10000;
         //compute owner sale amount
-        uint256 amount = price - fee;
+        uint256 amount = price - fee - royaltyAmount;
 
         // Transfer the owner amount
         IERC20(currency).transferFrom(buyer, offeror, amount);
         // Transfer the fee amount
         IERC20(currency).transferFrom(buyer, feeAddress, fee);
+        if (receiver != address(0)) {
+            // Transfer the royalty amount
+            IERC20(currency).transferFrom(buyer, receiver, royaltyAmount);
+            emit RoyaltyTransferred(buyer, receiver, royaltyAmount);
+        }
 
         // transfer the NFT to the buyer
         IERC721(nftContract).transferFrom(address(this), buyer, tokenId);
@@ -480,11 +504,36 @@ contract NFTMarket is Initializable, OwnableUpgradeable, PausableUpgradeable {
         address offeror,
         address bidder
     ) private {
+        address receiver = address(0);
+        uint256 royaltyAmount = 0;
+
+        if (
+            IERC165(idToMarketItem[itemId].nftContract).supportsInterface(
+                type(IERC2981).interfaceId
+            )
+        ) {
+            (address _receiver, uint256 _royaltyAmount) = IERC2981(
+                idToMarketItem[itemId].nftContract
+            ).royaltyInfo(idToMarketItem[itemId].tokenId, value);
+
+            if (offeror != _receiver) {
+                receiver = _receiver;
+                royaltyAmount = _royaltyAmount;
+            }
+        }
         // Divvy up proceeds
         uint256 feeAmount = (value * defaultFee) / 10000; // reverts on overflow
-        uint256 bidderAmount = value - feeAmount;
+        uint256 bidderAmount = value - feeAmount - royaltyAmount;
         IERC20(idToMarketItem[itemId].currency).transfer(feeAddress, feeAmount);
         IERC20(idToMarketItem[itemId].currency).transfer(offeror, bidderAmount);
+        if (receiver != address(0)) {
+            // Transfer the royalty amount
+            IERC20(idToMarketItem[itemId].currency).transfer(
+                receiver,
+                royaltyAmount
+            );
+            emit RoyaltyTransferred(bidder, receiver, royaltyAmount);
+        }
 
         emit Traded(idToMarketItem[itemId].tokenId, value, offeror, bidder);
         idToMarketItem[itemId].offeror = address(0);
@@ -502,7 +551,6 @@ contract NFTMarket is Initializable, OwnableUpgradeable, PausableUpgradeable {
         uint256 itemCount = _itemIds.current();
         uint256 currentIndex = 0;
 
-        //==============
         uint256 count = 0;
         for (uint256 i = 0; i < itemCount; i++) {
             if (idToMarketItem[i + 1].owner == address(0)) {
@@ -521,7 +569,6 @@ contract NFTMarket is Initializable, OwnableUpgradeable, PausableUpgradeable {
         }
 
         return items;
-        //==============
     }
 
     function fetchMyListedNFTs() public view returns (MarketItem[] memory) {

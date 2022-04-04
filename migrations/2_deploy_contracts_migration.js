@@ -1,4 +1,5 @@
 const NFTToken = artifacts.require("NFTToken");
+const NFTRoyaltyToken = artifacts.require("NFTRoyaltyToken");
 const NFTMarket = artifacts.require("NFTMarket");
 const Token = artifacts.require("GoldToken");
 const { deployProxy } = require("@openzeppelin/truffle-upgrades");
@@ -14,6 +15,7 @@ module.exports = async function (deployer, network) {
       { deployer }
     );
     await deployer.deploy(NFTToken, instance.address);
+    await deployer.deploy(NFTRoyaltyToken, instance.address);
     console.log("deployed", instance.address);
   }
 };

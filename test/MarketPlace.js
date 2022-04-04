@@ -1,4 +1,5 @@
 const NFTToken = artifacts.require("NFTToken");
+const NFTRoyaltyToken = artifacts.require("NFTRoyaltyToken");
 const NFTMarket = artifacts.require("NFTMarket");
 const Token = artifacts.require("GoldToken");
 const { deployProxy } = require("@openzeppelin/truffle-upgrades");
@@ -34,6 +35,41 @@ const prepareMarketItem = async (
   };
 };
 
+const prepareMarketItemWithRoyalties = async (
+  nftToken,
+  tokenId,
+  price,
+  currency,
+  auction,
+  publisher,
+  minimumOffer,
+  duration,
+  minter,
+  royaltyReceiver,
+  royaltyFraction
+) => {
+  await nftToken.createToken(
+    tokenId,
+    "http://tokenuri",
+    royaltyFraction,
+    royaltyReceiver,
+    { from: minter }
+  );
+
+  return {
+    nft: nftToken,
+    tokenId,
+    price,
+    currency,
+    auction,
+    publisher,
+    minimumOffer,
+    duration,
+    royaltyReceiver,
+    royaltyFraction,
+  };
+};
+
 contract(
   "NFTMarket",
   async ([
@@ -45,7 +81,7 @@ contract(
     feeAddress,
     nofunds,
     author1,
-    author2,
+    royaltyReceiver,
     author3,
   ]) => {
     describe("deployment", () => {
@@ -72,6 +108,7 @@ contract(
       let marketItem;
       let result;
       let nftContract;
+      let nftContractWithRoyalties;
       let token;
       const price = web3.utils.toWei("1", "ether");
       let tokenId = Date.now();
@@ -104,6 +141,7 @@ contract(
           { from: anotherBidder }
         );
         nftContract = await NFTToken.new(market.address);
+        nftContractWithRoyalties = await NFTRoyaltyToken.new(market.address);
         marketItem = await prepareMarketItem(
           nftContract,
           tokenId,
@@ -1091,6 +1129,243 @@ contract(
 
         result = await market.fetchMyNFTs({ from: user });
         result.length.should.equal(mynfts.length - 1);
+      });
+
+      it("mints an NFT with royalties sale it and receive royalties when secondary market sale occurs", async () => {
+        tokenId = Date.now();
+        marketItem = await prepareMarketItemWithRoyalties(
+          nftContractWithRoyalties,
+          tokenId,
+          price,
+          token.address,
+          false,
+          true,
+          0,
+          0,
+          nftOwner,
+          nftOwner,
+          1000
+        );
+
+        const royaltyInfos = await marketItem.nft.royaltyInfo(
+          marketItem.tokenId,
+          marketItem.price
+        );
+
+        let royaltyAmount = new BN(marketItem.price)
+          .mul(new BN(1000))
+          .div(new BN(10000));
+
+        royaltyInfos[0].should.equal(nftOwner);
+        royaltyInfos[1].toString().should.equal(royaltyAmount.toString());
+
+        result = await market.createMarketItem(
+          marketItem.nft.address,
+          marketItem.tokenId,
+          marketItem.price,
+          marketItem.currency,
+          marketItem.auction,
+          marketItem.publisher,
+          marketItem.minimumOffer,
+          marketItem.duration,
+          { from: nftOwner }
+        );
+
+        let royaltyBalanceBeforeSale = await token.balanceOf(nftOwner);
+
+        result = await market.createMarketSale(marketItem.tokenId, {
+          from: user,
+        });
+
+        let fee = new BN(marketItem.price).mul(new BN(1250)).div(new BN(10000));
+        let royaltyBalanceAfterSale = await token.balanceOf(nftOwner);
+        royaltyBalanceAfterSale
+          .toString()
+          .should.equal(
+            new BN(royaltyBalanceBeforeSale)
+              .add(new BN(marketItem.price).sub(fee))
+              .toString()
+          );
+
+        const owner = await nftContractWithRoyalties.ownerOf(
+          marketItem.tokenId
+        );
+        owner.should.equal(user);
+
+        await nftContractWithRoyalties.setApprovalForAll(market.address, true, {
+          from: user,
+        });
+
+        result = await market.createMarketItem(
+          marketItem.nft.address,
+          tokenId,
+          marketItem.price,
+          marketItem.currency,
+          marketItem.auction,
+          marketItem.publisher,
+          marketItem.minimumOffer,
+          marketItem.duration,
+          { from: user }
+        );
+
+        royaltyAmount = new BN(marketItem.price)
+          .mul(new BN(1000))
+          .div(new BN(10000));
+
+        result = await market.getMarketItem(marketItem.tokenId);
+        result.tokenId.toString().should.equal(tokenId.toString());
+
+        royaltyBalanceBeforeSale = await token.balanceOf(nftOwner);
+        const feeBalanceBeforeSale = await token.balanceOf(feeAddress);
+        const ownerBalanceBeforeSale = await token.balanceOf(user);
+        const buyerBalanceBeforeSale = await token.balanceOf(bidder);
+
+        result = await market.createMarketSale(marketItem.tokenId, {
+          from: bidder,
+        });
+
+        fee = new BN(marketItem.price).mul(new BN(1250)).div(new BN(10000));
+        let amount = new BN(marketItem.price).sub(fee).sub(royaltyAmount);
+        let expectedBuyerBalance = new BN(buyerBalanceBeforeSale).sub(
+          new BN(marketItem.price)
+        );
+        let expectedFeeBalance = new BN(feeBalanceBeforeSale).add(fee);
+        let expectedOwnerBalance = new BN(ownerBalanceBeforeSale).add(amount);
+        let expectedRoyaltyBalance = new BN(royaltyBalanceBeforeSale).add(
+          royaltyAmount
+        );
+        royaltyBalanceAfterSale = await token.balanceOf(nftOwner);
+        const feeBalanceAfterSale = await token.balanceOf(feeAddress);
+        const ownerBalanceAfterSale = await token.balanceOf(user);
+        const buyerBalanceAfterSale = await token.balanceOf(bidder);
+
+        feeBalanceAfterSale
+          .toString()
+          .should.equal(expectedFeeBalance.toString());
+        buyerBalanceAfterSale
+          .toString()
+          .should.equal(expectedBuyerBalance.toString());
+        ownerBalanceAfterSale
+          .toString()
+          .should.equal(expectedOwnerBalance.toString());
+        royaltyBalanceAfterSale
+          .toString()
+          .should.equal(expectedRoyaltyBalance.toString());
+      });
+
+      it("mints an NFT without royalties sale it and don't receive royalties when secondary market sale occurs", async () => {
+        tokenId = Date.now();
+        marketItem = await prepareMarketItemWithRoyalties(
+          nftContractWithRoyalties,
+          tokenId,
+          price,
+          token.address,
+          false,
+          true,
+          0,
+          0,
+          nftOwner,
+          nftOwner,
+          0
+        );
+
+        const royaltyInfos = await marketItem.nft.royaltyInfo(
+          marketItem.tokenId,
+          marketItem.price
+        );
+
+        let royaltyAmount = new BN(marketItem.price)
+          .mul(new BN(0))
+          .div(new BN(10000));
+
+        royaltyInfos[0].should.equal(ZERO_ADDRESS);
+        royaltyInfos[1].toString().should.equal(royaltyAmount.toString());
+
+        result = await market.createMarketItem(
+          marketItem.nft.address,
+          marketItem.tokenId,
+          marketItem.price,
+          marketItem.currency,
+          marketItem.auction,
+          marketItem.publisher,
+          marketItem.minimumOffer,
+          marketItem.duration,
+          { from: nftOwner }
+        );
+
+        let royaltyBalanceBeforeSale = await token.balanceOf(nftOwner);
+
+        result = await market.createMarketSale(marketItem.tokenId, {
+          from: user,
+        });
+
+        let fee = new BN(marketItem.price).mul(new BN(1250)).div(new BN(10000));
+        let royaltyBalanceAfterSale = await token.balanceOf(nftOwner);
+        royaltyBalanceAfterSale
+          .toString()
+          .should.equal(
+            new BN(royaltyBalanceBeforeSale)
+              .add(new BN(marketItem.price).sub(fee))
+              .toString()
+          );
+
+        const owner = await nftContractWithRoyalties.ownerOf(
+          marketItem.tokenId
+        );
+        owner.should.equal(user);
+
+        await nftContractWithRoyalties.setApprovalForAll(market.address, true, {
+          from: user,
+        });
+
+        result = await market.createMarketItem(
+          marketItem.nft.address,
+          tokenId,
+          marketItem.price,
+          marketItem.currency,
+          marketItem.auction,
+          marketItem.publisher,
+          marketItem.minimumOffer,
+          marketItem.duration,
+          { from: user }
+        );
+
+        result = await market.getMarketItem(marketItem.tokenId);
+        result.tokenId.toString().should.equal(tokenId.toString());
+
+        royaltyBalanceBeforeSale = await token.balanceOf(nftOwner);
+        const feeBalanceBeforeSale = await token.balanceOf(feeAddress);
+        const ownerBalanceBeforeSale = await token.balanceOf(user);
+        const buyerBalanceBeforeSale = await token.balanceOf(bidder);
+
+        result = await market.createMarketSale(marketItem.tokenId, {
+          from: bidder,
+        });
+
+        fee = new BN(marketItem.price).mul(new BN(1250)).div(new BN(10000));
+        let amount = new BN(marketItem.price).sub(fee);
+        let expectedBuyerBalance = new BN(buyerBalanceBeforeSale).sub(
+          new BN(marketItem.price)
+        );
+        let expectedFeeBalance = new BN(feeBalanceBeforeSale).add(fee);
+        let expectedOwnerBalance = new BN(ownerBalanceBeforeSale).add(amount);
+        royaltyBalanceAfterSale = await token.balanceOf(nftOwner);
+        const feeBalanceAfterSale = await token.balanceOf(feeAddress);
+        const ownerBalanceAfterSale = await token.balanceOf(user);
+        const buyerBalanceAfterSale = await token.balanceOf(bidder);
+
+        feeBalanceAfterSale
+          .toString()
+          .should.equal(expectedFeeBalance.toString());
+        buyerBalanceAfterSale
+          .toString()
+          .should.equal(expectedBuyerBalance.toString());
+        ownerBalanceAfterSale
+          .toString()
+          .should.equal(expectedOwnerBalance.toString());
+        royaltyBalanceAfterSale
+          .toString()
+          .should.equal(royaltyBalanceBeforeSale.toString());
       });
     });
   }
